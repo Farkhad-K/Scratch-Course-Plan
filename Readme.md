@@ -13,26 +13,27 @@ The course consists of **21 projects** spread across **36 lessons**, with some p
 | **№** | **Projects to be done in class** | **Number of lessons to complete the project** |
 |---------|-----------------------------------|------------------|
 | **1**   | Introduction                     | 1 |
-| **2**   | [Dialogue]()                           | 1 |
+| **2**   | [Dialogue](./Projects/)                           | 1 |
 | **3**   | [Word animation](./Projects/ilmhub-animation.sb3)                   | 1 |
-| **4**   | Food catcher                     | 2 |
-| **5**   | Chick & Egg                      | 2 |
-| **6**   | Fish & Frog                      | 2 |
-| **7**   | Paddle game                      | 2 |
-| **8**   | Calculator                       | 1 |
-| **9**   | Paint                            | 2 |
+| **4**   | [Food catcher](./Projects/Food%20catcher.sb3)                     | 2 |
+| **5**   | [Chick & Egg](./Projects/Jump%20chick.sb3)                      | 2 |
+| **6**   | [Fish & Frog](./Projects/Fish%20&%20Frog.sb3)                      | 2 |
+| **7**   | [Paddle game](./Projects/Paddle%20game.sb3)                      | 2 |
+| **8**   | [Calculator](./Projects/Calculator.sb3)                       | 1 |
+| **9**   | [Paint](./Projects/Paint.sb3)                            | 2 |
 | **10**  | Microsoft Power Point or Google slide (Presentation) | 2 |
-| **11**  | Shooter game                     | 2 |
-| **12**  | War game                         | 2 |
-| **13**  | Drawing shapes                   | 1 |
-| **14**  | Space shooter                    | 1 |
-| **15**  | Ping-Pong (2-player paddle game) | 2 |
-| **16**  | Review and competition on MonkeyType | 1 |
-| **17**  | Driving                          | 2 |
-| **18**  | Canoe                            | 2 |
-| **19**  | Review and competition on MonkeyType | 1 |
-| **20**  | Racing                           | 1 |
-| **21**  | Maze                             | 4 |
+| **11**  | [Shooter game](./Projects/Shooter%20game.sb3)                     | 2 |
+| **12**  | [War game](./Projects/War%20game.sb3)                         | 2 |
+| **13**  | Review and competition on MonkeyType | 1 |
+| **14**  | [Drawing shapes](./Projects/Drawing%20shapes.sb3)                   | 1 |
+| **15**  | [Space shooter](./Projects/Space%20Shooter.sb3)                    | 1 |
+| **16**  | [Ping-Pong (2-player paddle game)](./Projects/Ping-Pong.sb3) | 2 |
+| **17**  | Review and competition on MonkeyType | 1 |
+| **18**  | [Driving](./Projects/Racing.sb3)                          | 2 |
+| **19**  | [Canoe](./Projects/Canoe.sb3)                            | 2 |
+| **20**  | Review and competition on MonkeyType | 1 |
+| **21**  | [Racing](./Projects/Racing.sb3)                           | 1 |
+| **22**  | [Maze](./Projects/Maze.sb3)                             | 4 |
 
 ### Project Breakdown
 
@@ -49,7 +50,7 @@ The course consists of **21 projects** spread across **36 lessons**, with some p
    - A fun game where players catch falling food items. 🍎🍔
 
 5. **Lesson 5: Chick & Egg** (2 days)  
-   - A simple game where a chick hatches from an egg and tries to collect items. 🐣🥚
+   - A simple game where a chick tries jump over eggs(alternatively [Chrome dino](./Projects/Chrome-dino.sb3) project could be used). 🐣🥚
 
 6. **Lesson 6: Fish & Frog** (2 days)  
    - A project where students animate a fish and frog interacting. 🐟🐸
@@ -72,17 +73,17 @@ The course consists of **21 projects** spread across **36 lessons**, with some p
 12. **Lesson 12: War Game** (2 days)  
     - A basic war-themed game where characters engage in battle. ⚔️
 
-13. **Lesson 13: Drawing Shapes** (1 day)  
+13. **Lesson 13: Review and competition on MonkeyType** (1 day)  
+    - Review topics learned and compete on typing.com. ⌨️
+
+14. **Lesson 14: Drawing Shapes** (1 day)  
     - Teach students how to draw various shapes using code. 🔵🟣
 
-14. **Lesson 14: Space Shooter** (1 day)  
+15. **Lesson 15: Space Shooter** (1 day)  
     - Build a space-themed shooting game where players control a spaceship. 👽
 
-15. **Lesson 15: Ping-Pong (2-player paddle game)** (2 days)  
+16. **Lesson 16: Ping-Pong (2-player paddle game)** (2 days)  
     - A 2-player ping-pong game to develop interactive gameplay. 🏓
-
-16. **Lesson 16: Review and competition on MonkeyType** (1 day)  
-    - Review topics learned and compete on typing.com. ⌨️
 
 17. **Lesson 17: Driving** (2 days)  
     - Create a simple driving simulation game. 🚗
