@@ -14,7 +14,7 @@ The course consists of **21 projects** spread across **36 lessons**, with some p
 |---------|-----------------------------------|------------------|
 | **1**   | Introduction                     | 1 |
 | **2**   | [Dialogue]()                           | 1 |
-| **3**   | [Word animation](ilmhub-animation.sb3)                   | 1 |
+| **3**   | [Word animation](./Projects/ilmhub-animation.sb3)                   | 1 |
 | **4**   | Food catcher                     | 2 |
 | **5**   | Chick & Egg                      | 2 |
 | **6**   | Fish & Frog                      | 2 |
