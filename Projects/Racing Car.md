@@ -1,84 +1,82 @@
-# Racing Car 🚗
+# Poyga Moshinasi 🚗
 
-## Project Overview
+## Loyiha Sharhi
 
-The **Racing Car** is a **repetition project** designed for students to revisit and practice the key concepts they’ve already learned in Scratch. In this project, students will create a game where they control a race car, navigating through a track filled with obstacles while avoiding collisions. The goal is to practice concepts such as **sprite creation**, **movement**, **collision detection**, **variables**, and **leveling**.
+**Poyga Moshinasi** — bu o‘quvchilarga Scratch dasturlashda oldin o‘rganilgan asosiy tushunchalarni takrorlash va amaliyot qilish uchun mo‘ljallangan **takrorlash loyihasi**. Ushbu loyihada o‘quvchilar poyga mashinasini boshqarib, to‘siqlardan qochib, yo‘lda harakatlanadigan o‘yin yaratadilar. Maqsad — **sprite yaratish**, **harakatlanish**, **to‘qnashuvni aniqlash**, **o‘zgaruvchilar** va **darajalar** kabi tushunchalarni mustahkamlash.
 
-As this is a repetition project, the game will focus on applying everything students have learned so far. The project reinforces skills like **movement controls**, **if-else statements**, **loops**, and **timer systems** to build a complete and functional racing game.
+Bu loyiha o‘quvchilarning hozirgacha o‘rgangan barcha bilimlarini amalda qo‘llashga yo‘naltirilgan. Unda **harakat boshqaruvi**, **shart operatorlari (if-else)**, **tsikllar** va **taymer tizimlari** kabi ko‘nikmalar mustahkamlanadi va to‘liq ishlaydigan poyga o‘yini yaratiladi.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **Sprite Creation**: Students will design their own race car and track sprites.
-- **Movement**: Practice moving the car using keyboard inputs (like arrow keys).
-- **Collision Detection**: Detect when the car collides with obstacles or track boundaries.
-- **Variables**: Use variables to track the score, time, and level progression.
-- **Leveling**: Introduce progressively harder levels as the player advances.
-- **Timer**: Add a timer to track how long it takes the player to finish the track.
-- **Game Flow**: Manage starting, progressing through levels, and ending the game.
+- **Sprite yaratish**: O‘quvchilar o‘zlari poyga mashinasi va yo‘l sprite’larini yaratadilar.
+- **Harakatlanish**: Klaviatura yordamida mashinani harakatlantirish (masalan, o‘q tugmalari bilan).
+- **To‘qnashuvni aniqlash**: Mashina to‘siqlarga yoki yo‘l chegarasiga urilganda aniqlash.
+- **O‘zgaruvchilar**: Hisob, vaqt va darajani kuzatish uchun o‘zgaruvchilar yaratish.
+- **Darajalar**: O‘yinchi oldinga o‘tgani sayin qiyinchilik darajasini oshirish.
+- **Taymer**: O‘yinchi yo‘lni qancha vaqtda bosib o‘tganini hisoblash.
+- **O‘yin jarayoni**: O‘yin boshlanishi, darajalar o‘tishi va tugashini boshqarish.
 
-## Detailed Plan
+## Batafsil Reja
 
-### 1. Introduction (10-15 minutes)
-- Explain the goal of the project: To build a **Racing Car Game** using previously learned concepts.
-- Discuss how this project serves as a **repetition** exercise to solidify the skills learned, including **movement**, **collision detection**, and **leveling**.
-- Go over the importance of **using variables** for tracking things like the **score** and **level**, and the role of the **timer** in keeping track of time during the race.
+### 1. Kirish (10-15 daqiqa)
+- Loyihaning maqsadini tushuntirish: ilgari o‘rganilgan tushunchalar asosida **Poyga Moshinasi o‘yinini** yaratish.
+- Ushbu loyiha **takrorlash** sifatida, o‘rgangan tushunchalarni, jumladan **harakat**, **to‘qnashuvni aniqlash**, va **darajalar**ni mustahkamlash vazifasini bajaradi.
+- Hisob va darajani kuzatish uchun **o‘zgaruvchilarning ahamiyati**, shuningdek poyga davomida vaqtni hisoblash uchun **taymer**ning roli haqida tushuntirish.
 
-### 2. Step-by-Step Instructions
+### 2. Bosqichma-bosqich ko‘rsatmalar
 
-#### Step 1: Create the Race Car Sprite
-- **Design the Race Car**: Students will create or import a **race car sprite** that will be controlled by the player.
-- **Control the Race Car**: Use `when key pressed` blocks to control the car’s movement. For example:
-  - Left Arrow: Move left
-  - Right Arrow: Move right
-  - Up Arrow: Move forward
-  - Down Arrow: Move backward (optional)
+#### 1-bosqich: Poyga Mashinasi sprite’ini yaratish
+- **Mashina dizayni**: O‘quvchilar o‘zlari yaratgan yoki import qilgan poyga mashinasi sprite’ini tayyorlaydilar.
+- **Mashina boshqaruvi**: `when key pressed` bloklari yordamida mashinani boshqarish:
+  - Chap o‘q: chapga harakat
+  - O‘ng o‘q: o‘ngga harakat
+  - Yuqori o‘q: oldinga harakat
+  - Pastki o‘q: orqaga harakat (ixtiyoriy)
 
-#### Step 2: Design the Track
-- **Create a Track Sprite**: Students will design a simple track layout using a **backdrop** or custom **track sprite**. This track should have visible boundaries to show the race area and obstacles along the way.
-- **Define Boundaries**: Use collision detection to make sure the player stays on the track. If the car goes off the track, the game should end or the player should lose a life.
+#### 2-bosqich: Yo‘lni dizaynlash
+- **Yo‘l sprite’i**: O‘quvchilar oddiy yo‘lni fon yoki maxsus sprite sifatida yaratadilar. Yo‘l chegaralari va to‘siqlar ko‘rinadigan bo‘lishi kerak.
+- **Chegaralarni belgilash**: Mashina yo‘ldan chiqmasligi uchun to‘qnashuvni aniqlashni qo‘llash. Yo‘ldan chiqqanda o‘yin tugashi yoki o‘yinchi hayoti kamayishi kerak.
 
-#### Step 3: Add Obstacles
-- **Design Obstacles**: Create obstacle sprites (e.g., cones, rocks, or other cars) that the player must avoid. These obstacles will be placed along the track, and the player must navigate around them.
-- **Collision Detection**: Use the `if <touching [obstacle]>` block to end the game or penalize the player when the car collides with an obstacle.
+#### 3-bosqich: To‘siqlarni qo‘shish
+- **To‘siq sprite’lari**: O‘quvchilar to‘siq — konuslar, toshlar yoki boshqa mashinalar kabi sprite’lar yaratadilar.
+- **To‘qnashuvni aniqlash**: `if <touching [to‘siq]>` bloki yordamida o‘yin tugashi yoki o‘yinchiga jarima berilishi.
 
-#### Step 4: Leveling and Increasing Difficulty
-- **Create Levels**: After completing a level, the player should be taken to the next level. Each new level should become harder by increasing the speed of the car, adding more obstacles, or changing the track layout.
-- **Level Variable**: Use a variable called `level` to track the current level. After the player finishes a level, increase the level by 1 and reset the game’s difficulty.
+#### 4-bosqich: Darajalar va qiyinchilikni oshirish
+- **Darajalar yaratish**: Har bir daraja tugagach, keyingi darajaga o‘tish. Har yangi daraja qiyinlashishi uchun mashina tezligini oshirish, ko‘proq to‘siq qo‘shish yoki yo‘lni o‘zgartirish.
+- **Daraja o‘zgaruvchisi**: `level` nomli o‘zgaruvchi yaratib, hozirgi darajani kuzatish va daraja tugagach, uni oshirish.
 
-#### Step 5: Timer and Score
-- **Timer**: Use a timer to track how long it takes for the player to finish each level. This can be done by creating a **timer variable** and using `wait` or `forever` blocks to decrease the timer.
-- **Score**: Create a variable called `score` to track how well the player performs. This can be based on how quickly they finish the level or if they avoid obstacles.
+#### 5-bosqich: Taymer va hisob
+- **Taymer**: O‘yinchi darajani qancha vaqtda tugatishini o‘lchash uchun taymer o‘zgaruvchisi yaratish. `wait` yoki `forever` bloklari yordamida vaqtni kamaytirish.
+- **Hisob**: `score` nomli o‘zgaruvchi yaratib, o‘yinchining natijasini, masalan, darajani tez tugatishi yoki to‘siqlardan qochishi asosida hisoblash.
 
-#### Step 6: Game Flow
-- **Start Screen**: Create a start screen where the player can click to begin the game.
-- **Game Over**: Display a "Game Over" screen if the player hits an obstacle or goes off the track. Include options to restart the game or return to the start screen.
-- **Level Transitions**: When the player successfully finishes a level, transition them to the next level by changing the track, increasing difficulty, and updating the level variable.
+#### 6-bosqich: O‘yin jarayoni
+- **Boshlash ekrani**: O‘yin boshlanishi uchun bosish mumkin bo‘lgan start ekrani yaratish.
+- **O‘yin tugadi ekrani**: Mashina to‘siqqa urilganda yoki yo‘ldan chiqqanda "O‘yin tugadi" ekrani ko‘rsatish. O‘yin qayta boshlash yoki boshlang‘ich ekranga qaytish imkoniyatlari bilan.
+- **Darajalar orasidagi o‘tish**: O‘yinchi darajani muvaffaqiyatli tugatgach, keyingi darajaga o‘tish, yo‘l va qiyinchilikni yangilash, darajani oshirish.
 
-### 3. Teacher’s Tips
-- **Repetition of Concepts**: This project is meant to help students solidify the concepts they’ve already learned. Encourage them to use what they already know about **variables**, **collision detection**, and **loops** to complete the game.
-- **Design Focus**: Remind students that this is also an opportunity for them to get creative with their **sprite designs** and **track layouts**.
-- **Debugging**: If students encounter issues with the game, encourage them to check the logic of their **collision detection**, **level progression**, and **timer** systems first.
+### 3. O‘qituvchiga Maslahatlar
+- **Tushunchalarni takrorlash**: Loyiha o‘quvchilarga oldin o‘rgangan bilimlarni mustahkamlashga yordam beradi. Ularni **o‘zgaruvchilar**, **to‘qnashuv aniqlash**, va **tsikllar**ni faol ishlatishga undang.
+- **Dizaynga e’tibor**: O‘quvchilarni sprite dizayni va yo‘l chizmalari bilan ijodkorlik qilishga rag‘batlantiring.
+- **Xatolarni tuzatish**: Muammolar yuzaga kelsa, birinchi navbatda **to‘qnashuvni aniqlash**, **daraja o‘tishi** va **taymer** tizimini tekshirishni tavsiya eting.
 
-### 4. Troubleshooting Common Issues
+### 4. Ko‘p uchraydigan muammolar
 
-- **Issue**: The car moves too fast or too slow.
-  - **Solution**: Adjust the movement blocks by changing the value in `change x by` or `change y by`. You can also adjust the car's speed by increasing or decreasing the time delay between movements.
-  
-- **Issue**: Obstacles don’t collide correctly with the car.
-  - **Solution**: Make sure the `if <touching [obstacle]>` block is properly set up. Ensure the obstacle is not set to hide before the collision check is made.
-  
-- **Issue**: The level doesn’t reset properly.
-  - **Solution**: Double-check that the **level variable** is resetting at the start of each level. Use the `change level by 1` block to increase the level and adjust the difficulty accordingly.
+- Muammo: Mashina juda tez yoki juda sekin harakatlanadi.
+  - Yechim: `change x by` yoki `change y by` qiymatlarini sozlash, harakatlar orasidagi kechikishni o‘zgartirish.
+- Muammo: To‘siqlar mashinaga to‘g‘ri urilmayapti.
+  - Yechim: `if <touching [to‘siq]>` blokining to‘g‘ri ishlashini va to‘siq yashirin emasligini tekshirish.
+- Muammo: Daraja to‘g‘ri yangilanmayapti.
+  - Yechim: Daraja boshlanishida `level` o‘zgaruvchisini qayta tiklash, darajani oshirish blokini to‘g‘ri qo‘llash.
 
-### 5. Extension Ideas
+### 5. Qo‘shimcha G‘oyalar
 
-- **Power-ups**: Add power-ups like **speed boosts** or **shields** that can help the player avoid obstacles or move faster.
-- **Multiple Tracks**: Create multiple levels with different **track layouts**, **obstacles**, and **backgrounds** to add variety to the game.
-- **High Scores**: Track the highest score achieved across all levels, and display the **high score** at the end of the game.
-- **Multiplayer Mode**: Add a second car controlled by another player for **split-screen racing**.
+- **Quvvat berishlar**: Masalan, tezlik oshirish yoki qalqon kabi quvvat berishlar qo‘shish.
+- **Ko‘p yo‘llar**: Turli yo‘l dizaynlari, to‘siqlar va fonlar bilan bir nechta darajalar yaratish.
+- **Eng yuqori natija**: Barcha darajalar bo‘yicha eng yuqori natijani saqlash va o‘yin oxirida ko‘rsatish.
+- **Ko‘p o‘yinchi rejimi**: Ikkinchi o‘yinchi uchun boshqa mashina qo‘shib, split-screen poygasini yaratish.
 
-## Conclusion
+## Xulosa
 
-By the end of this project, students will have practiced all the fundamental concepts they’ve learned in Scratch while creating a **Racing Car Game**. This includes skills such as **sprite creation**, **movement controls**, **collision detection**, **timer functions**, and **level progression**. The project serves as a great opportunity to reinforce learning through **hands-on coding**, creativity, and problem-solving.
+Ushbu loyiha davomida o‘quvchilar Scratch dasturlashdagi asosiy tushunchalarni mustahkamlab, o‘zlarining **Poyga Moshinasi o‘yinini** yaratadilar. Bu orqali ular **sprite yaratish**, **harakat boshqaruvi**, **to‘qnashuvni aniqlash**, **taymer funksiyalari** va **darajalarni o‘zgartirish** kabi ko‘nikmalarni amalda qo‘llash imkoniyatiga ega bo‘ladilar. Loyihaning amaliy yo‘nalishi, ijodkorlik va muammolarni hal qilish ko‘nikmalarini rivojlantirishga xizmat qiladi.
 
 ---

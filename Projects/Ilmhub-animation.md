@@ -1,37 +1,41 @@
-# Project : Word Animation ✨
+# Loyiha: So'z Animatsiyasi ✨
 
-## Project Overview
+## Loyiha Sharhi
 
-In this project, students will create an animation where each letter of a word (ideally "ILMHUB") moves across the screen. This simple project will help students understand how to animate objects individually using the **`glide`** block and coordinate the movement of multiple sprites (letters) at once. Students will also learn how to break a word into individual letters, animate them one by one, and make the word appear as if it's moving.
+Ushbu loyihada o‘quvchilar so‘zdagi har bir harfni (masalan, "ILMHUB") ekranda harakatlanayotgan animatsiya sifatida yaratadilar. Bu oddiy loyiha orqali o‘quvchilar **`glide`** blokidan foydalanib, harflarni alohida-alohida animatsiya qilishni va bir nechta sprite’larning (harflarning) harakatini muvofiqlashtirishni o‘rganadilar. Shuningdek, ular so‘zni harflarga ajratib, har birini ketma-ket animatsiya qilish va so‘zning butunlay harakatlanayotganini ko‘rsatishni bilib oladilar.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **Glide Block**: Teach students how to use the `glide [x] secs to [x] [y]` block to smoothly move the letters across the screen.
-- **Sprite Positioning**: Use the `go to x: [x] y: [y]` block to position letters at their starting points.
+- **Glide bloki**: `glide [x] soniya davomida x: [x] y: [y]` blokidan foydalanib, harflarni ekranda silliq harakatlantirishni o‘rgating.
+- **Sprite joylashuvi**: `go to x: [x] y: [y]` bloki yordamida harflarni boshlang‘ich joylariga qo‘yish.
 
-## Detailed Plan
+## Batafsil Reja
 
-1. **Introduction (10-15 minutes)**
-   - Explain the purpose of the project: animating the word "ILMHUB" by moving each letter across the screen.
-   - Introduce the **glide block** and explain how it moves the sprite smoothly to a new position over a specified amount of time.
-   - Discuss how students will break the word into individual letters and animate them one by one.
+1. **Kirish (10-15 daqiqa)**
+   - Loyihaning maqsadini tushuntiring: "ILMHUB" so‘zidagi har bir harfni ketma-ket ekranda harakatlantirish.
+   - **Glide bloki**ni tanishtiring va uning sprite’ni belgilangan vaqt ichida yangi joyga silliq olib borishini tushuntiring.
+   - O‘quvchilarga so‘zni harflarga ajratib, ularni ketma-ket animatsiya qilish usulini tushuntiring.
 
-2. **Step-by-Step Instructions**
-   - **Step 1**: Create individual sprites for each letter of the word "ILMHUB".
-     - You can create separate sprites for each letter or use the same sprite and clone it.
-   - **Step 2**: Position each letter at its starting point.
-     - Use the `go to x: [x] y: [y]` block to place each letter at a different position on the screen.
-   - **Step 3**: Use the **`glide`** block to animate each letter.
-     - For example: Use `glide 2 secs to x: [new x] y: [new y]` to move each letter to the next position smoothly.
-   - **Step 4**: Use **broadcasting** to trigger the animation of the letters in sequence.
-     - Each letter will glide to its new position, triggered by the broadcasted message.
-   - **Step 5**: Add a small pause between each glide to create a sequential animation.
-     - Use the `wait [time] seconds` block between the glides to control the timing of the letter movements.
+2. **Bosqichma-bosqich ko‘rsatmalar**
 
-3. **Teacher’s Tips**
-   - Emphasize the use of **glide** to create smooth animations, and encourage students to experiment with different glide times to see how it affects the movement speed.
-   - Ensure that students understand how to break down a word into individual letter sprites and use them to create a seamless animation.
-   - Encourage creativity! Students can change the word to something else (their name, a favorite phrase, etc.) or add more effects like changing colors or sizes.
+   - **1-bosqich**: "ILMHUB" so‘zining har bir harfi uchun alohida sprite yarating.
+     - Har bir harf uchun alohida sprite yaratish yoki bitta sprite’ni klonlash mumkin.
+   - **2-bosqich**: Har bir harfni boshlang‘ich joyiga qo‘ying.
+     - `go to x: [x] y: [y]` blokidan foydalanib, harflarni ekranda turli joylarga joylashtiring.
+   - **3-bosqich**: Harflarni **`glide`** bloki yordamida animatsiya qiling.
+     - Masalan: `glide 2 soniya davomida x: [yangi x] y: [yangi y]` blokidan harflarni keyingi joyga silliq harakatlantirish uchun foydalaning.
+   - **4-bosqich**: Animatsiyani ketma-ket bajarish uchun **broadcast** blokidan foydalaning.
+     - Har bir harf o‘z navbatida xabarni olgach, yangi joyga harakat qiladi.
+   - **5-bosqich**: Har bir harakat orasiga kichik to‘xtash qo‘shing.
+     - Harflarning harakat vaqtlari orasida `wait [vaqt] soniya` blokidan foydalanib, ketma-ketlikni nazorat qiling.
 
-4. **Troubleshooting Common Issues**
-   - **Issue**: Letters are not moving
+3. **O‘qituvchiga Maslahatlar**
+
+- Animatsiyani silliq qilish uchun **glide** blokidan foydalanishga urg‘u bering va o‘quvchilarga har xil vaqt qiymatlarini sinab ko‘rishni tavsiya qiling.
+- O‘quvchilarga so‘zni harflarga bo‘lib, har birini alohida sprite sifatida ishlatishni tushuntiring.
+- Yaratishda ijodkorlikka undang! Ular so‘zni o‘z ismlari yoki sevimli so‘zlari bilan almashtirishlari yoki rang, o‘lcham o‘zgarishi kabi qo‘shimcha effektlar qo‘shishlari mumkin.
+
+4. **Ko‘p uchraydigan muammolar**
+
+- **Muammo**: Harflar harakat qilmayapti  
+  - **Yechim**: `glide` blokining to‘g‘ri joylashganini va broadcast xabarlari ketma-ketligini tekshiring.

@@ -1,70 +1,81 @@
-# Project : Flappy Bird 🐦
+# Loyiha: Flappy Bird 🐦
 
-## Project Overview
+## Loyiha Sharhi
 
-In this project, students will create a simplified version of the **Flappy Bird** game, where a bird must navigate through obstacles (pipes). The main focus of this project is on simulating **gravity** and the mechanics behind it, while also introducing basic **collision detection** and **scoring**.
+Ushbu loyihada o‘quvchilar **Flappy Bird** o‘yinining soddalashtirilgan versiyasini yaratadilar, unda qush to‘siqlar (trubkalar) orasidan o‘tishi kerak bo‘ladi. Loyihaning asosiy e’tibori **gravitatsiyani (tortish kuchini)** simulyatsiya qilishga qaratilgan. Shuningdek, oddiy **to‘qnashuvni aniqlash** va **hisob tizimi** ham o‘rganiladi.
 
-This project is a **side project** that can be used as an alternative or in addition to other games in the course. The teacher will guide the students in creating the basic mechanics and then encourage them to expand and customize the game. This is a great opportunity for students to understand how gravity works in a 2D game and how it affects character movement.
+Bu loyiha **qo‘shimcha loyiha** sifatida asosiy kursdagi boshqa o‘yinlar bilan birga yoki ularning o‘rniga foydalanilishi mumkin. O‘qituvchi o‘yin asoslarini tushuntiradi, so‘ng o‘quvchilar uni kengaytirish va o‘zlashtirish imkoniyatiga ega bo‘ladilar. Bu loyiha o‘quvchilarga 2D o‘yinlarda gravitatsiya qanday ishlashini tushunishga yordam beradi.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **Gravity Simulation**: Show how gravity can be simulated by applying a constant force that pulls the bird downward.
-- **Movement**: Use simple physics to control the bird's upward movement when a key is pressed.
-- **Collision Detection**: Detect when the bird hits the pipes or the ground.
-- **Score Tracking**: Implement a scoring system where the player earns points by passing through the pipes.
+- **Gravitatsiyani simulyatsiya qilish**: Qushni pastga tortadigan doimiy kuch orqali gravitatsiyani ko‘rsatish.
+- **Harakat**: Qush yuqoriga harakat qilishi uchun oddiy fizika asosidagi boshqaruvni ishlatish.
+- **To‘qnashuvni aniqlash**: Qush trubkalarga yoki yerga tegsa, buni aniqlash.
+- **Hisob tizimi**: Qush trubkalar orasidan o‘tganda ochko yig‘ish.
 
-## Detailed Plan
+## Batafsil Reja
 
-1. **Introduction (10-15 minutes)**
-   - Explain the purpose of the project: students will create a Flappy Bird-style game with a bird navigating through obstacles.
-   - Introduce the concept of **gravity** in games — gravity pulls the bird down when it is not actively pushed up.
-   - Discuss how **keyboard controls** will be used to control the bird’s vertical movement.
+### 1. Kirish (10–15 daqiqa)
 
-2. **Step-by-Step Instructions**
-   - **Step 1**: Create the basic game elements:
-     - Add a **bird sprite** and set its initial position.
-     - Add **pipe sprites** and arrange them randomly on the screen (vertical pipes).
-     - Set up a **background** that moves continuously to simulate the bird flying forward.
-   - **Step 2**: Simulate gravity:
-     - Use the `change y by [value]` block to simulate the bird’s movement.
-     - Introduce **gravity** by constantly decreasing the bird’s **y position** (downward movement).
-     - When the player presses the **space bar** (or another key), the bird should **move upward** (counteracting gravity). Use the `change y by [value]` to make the bird jump.
-   - **Step 3**: Add the pipe movement:
-     - The pipes should continuously move from right to left, and when they exit the screen, they should be reset to a new position.
-     - Use the `forever` loop with the `change x by [value]` to make the pipes move to the left.
-   - **Step 4**: Collision detection:
-     - Use the `if <touching [pipe]> then` block to detect if the bird hits a pipe.
-     - If the bird touches a pipe or the ground, end the game or restart the level.
-   - **Step 5**: Add the scoring system:
-     - Each time the bird passes through a pair of pipes, increase the score.
-     - Use a **score variable** to track the points. When the bird successfully passes through a set of pipes, increase the score by 1.
-   - **Step 6**: Add sound effects or animations:
-     - Add sound effects when the bird jumps, hits the ground, or collides with a pipe.
-     - Optionally, animate the bird to make it flap its wings when jumping.
+- Loyihaning maqsadini tushuntiring: o‘quvchilar trubkalar orasidan uchib o‘tadigan qush ishtirokidagi o‘yin yaratadilar.
+- O‘yinlarda **gravitatsiya** nima ekanligini tushuntiring — qush harakat qilmasa, pastga tushadi.
+- Qushning vertikal harakati qanday qilib **klaviatura tugmalari** orqali boshqarilishini muhokama qiling.
 
-3. **Teacher’s Tips**
-   - **Gravity** is the key feature of this project. Explain how applying constant downward movement simulates gravity, and how the space bar can reverse it temporarily to make the bird jump.
-   - Be sure students understand the need for **repeating actions** (using the `forever` loop for continuous movement of the pipes and gravity).
-   - Encourage students to experiment with **speed**: Adjusting the gravity and the speed of the pipes can make the game easier or harder.
+### 2. Bosqichma-bosqich Yo‘riqnoma
 
-4. **Troubleshooting Common Issues**
-   - **Issue**: The bird is moving too fast or too slow.
-     - **Solution**: Adjust the values in the `change y by [value]` block to control the bird's jump height and gravity.
-   - **Issue**: The pipes aren’t resetting correctly.
-     - **Solution**: Make sure that once the pipes move off-screen, they are reset to a new random position using the `go to x: [value]` and `y: [value]` blocks.
-   - **Issue**: The game ends instantly when the bird touches a pipe.
-     - **Solution**: Ensure the collision detection is set up correctly, and that the game only ends when necessary.
+#### 1-bosqich: Asosiy o‘yin elementlarini yarating:
+- **Qush sprajti** qo‘shing va uning boshlang‘ich holatini belgilang.
+- **Trubka sprajtlarini** qo‘shing va ularni ekranda tasodifiy joylashtiring (vertikal holatda).
+- **Fon rasmi** qo‘shing va uni doimiy harakatlantiring — bu qush uchayotganini ko‘rsatadi.
 
-5. **Extension Ideas**
-   - Add **different levels** with faster pipes or more obstacles to increase the difficulty.
-   - Add a **high score** system to track the best score across multiple attempts.
-   - Create **multiple bird skins** or change the design of the bird using different costumes.
-   - Add **power-ups** that temporarily allow the bird to fly higher or slow down the pipes.
+#### 2-bosqich: Gravitatsiyani simulyatsiya qiling:
+- `change y by [qiymat]` blokidan foydalanib qushning harakatini sozlang.
+- Qushning **y koordinatasi**ni doimiy ravishda kamaytirib, gravitatsiyani yarating.
+- O‘yinchi **bo‘sh joy tugmasini (space)** bossada, qush **yuqoriga sakrash** kerak (`change y by [qiymat]` yordamida).
 
-## Conclusion
+#### 3-bosqich: Trubkalarni harakatlantiring:
+- Trubkalar doimiy ravishda o‘ngdan chapga qarab harakatlanishi kerak.
+- `forever` sikli bilan `change x by [qiymat]` blokini ishlatib trubkalarni harakatlantiring.
+- Trubka ekran chetidan chiqqach, yangi tasodifiy joyga tiklang (`go to x: [qiymat], y: [qiymat]`).
 
-By the end of this project, students will have a functional **Flappy Bird-style game** with basic gravity simulation. They will understand how to apply simple physics concepts, such as gravity and jump mechanics, to make the game interactive. This project gives students valuable experience with **movement**, **collision detection**, and **score tracking**, and serves as a foundation for more complex games in the future.
+#### 4-bosqich: To‘qnashuvni aniqlang:
+- `if <touching [pipe]> then` blokidan foydalanib qush trubkaga tekkanda aniqlang.
+- Qush trubkaga yoki yerga tegsa — o‘yin to‘xtasin yoki qaytadan boshlansin.
+
+#### 5-bosqich: Hisob tizimini yarating:
+- Har safar qush trubkalar orasidan o‘tsa, ochko oshiring.
+- **Score (hisob)** o‘zgaruvchisini yarating va qush trubkadan muvaffaqiyatli o‘tganda 1 taga oshiring.
+
+#### 6-bosqich: Ovoz va animatsiya qo‘shing:
+- Qush sakraganda, yerga tushganda yoki to‘qnashganda ovoz effektlari qo‘shing.
+- Ixtiyoriy: Qush sakraganda qanotlarini qoqayotgan animatsiya qo‘shing.
+
+### 3. O‘qituvchiga Maslahatlar
+
+- Loyihaning asosiy elementi — **gravitatsiya**. Qush doimiy pastga harakatlanadi, **bo‘sh joy tugmasi** esa vaqtincha yuqoriga harakatni keltirib chiqaradi.
+- O‘quvchilar **doimiy harakatlar** uchun `forever` siklidan qanday foydalanishni tushunishlari kerak.
+- O‘yin murakkabligini sozlash uchun **tezlik bilan tajriba qilishni** tavsiya qiling — gravitatsiya yoki trubka tezligini o‘zgartirish mumkin.
+
+### 4. Muammolar va Yechimlar
+
+- **Muammo**: Qush juda tez yoki sekin harakat qiladi.
+  - **Yechim**: `change y by [qiymat]` blokidagi qiymatni moslashtiring.
+- **Muammo**: Trubkalar ekrandan chiqqach tiklanmayapti.
+  - **Yechim**: Trubkalar ekran chetidan chiqqach, `go to x: [qiymat], y: [qiymat]` bloklari bilan yangi joyga ko‘chirishni tekshiring.
+- **Muammo**: Qush trubkaga tegishi bilan o‘yin darhol tugaydi.
+  - **Yechim**: To‘qnashuv aniqlash bloklari to‘g‘ri joylashtirilganini va o‘yin faqat kerakli vaqtda tugashini ta’minlang.
+
+### 5. Qo‘shimcha G‘oyalar
+
+- **Turli darajalar** qo‘shing: Tezroq trubkalar yoki ko‘proq to‘siqlar bilan murakkablikni oshiring.
+- **Eng yuqori natijani** ko‘rsatadigan tizim yarating.
+- **Qush dizaynini** o‘zgartiring: Turli ko‘rinishlar (skins) yoki kostyumlar bilan.
+- **Qo‘shimcha imkoniyatlar** (power-ups) qo‘shing: Masalan, vaqtincha uchish balandligini oshirish yoki trubkalarni sekinlashtirish.
+
+## Xulosa
+
+Loyiha yakunida o‘quvchilar asosiy **Flappy Bird** o‘yinini yaratadilar va unda **gravitatsiya simulyatsiyasi** ishlatiladi. Ular oddiy fizika tushunchalarini (gravitatsiya va sakrash mexanikasi) o‘zlashtiradilar. Bu loyiha orqali o‘quvchilar **harakat**, **to‘qnashuvni aniqlash**, va **hisob yuritish** bo‘yicha tajriba orttiradilar va murakkabroq o‘yinlar yaratishga tayyorlanadilar.
 
 ---
 
-### **Note**: The **Flappy Bird** project is an excellent way to introduce students to the concept of **game physics** in Scratch. It helps students understand how gravity works in games, and gives them the opportunity to implement simple collision detection and scoring mechanics.
+### **Eslatma**: **Flappy Bird** loyihasi Scratch’da o‘yin fizikasini tushuntirish uchun juda qulay. Bu o‘quvchilarga o‘yinlarda gravitatsiya qanday ishlashini tushunishga va oddiy to‘qnashuv hamda ball tizimlarini joriy qilishga imkon beradi.

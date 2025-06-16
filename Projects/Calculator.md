@@ -1,43 +1,43 @@
-# Project 8: Calculator 🧮
+# Loyiha: Kalkulyator 🧮
 
-## Project Overview
+## Loyiha Sharhi
 
-In this project, students will create a basic calculator using Scratch. The project will introduce them to key programming concepts such as asking for input, performing calculations, and displaying results.
+Ushbu loyihada o‘quvchilar Scratch yordamida oddiy kalkulyator yaratadilar. Loyiha davomida ular foydalanuvchidan ma’lumot olish, hisob-kitoblarni bajarish va natijalarni chiqarish kabi asosiy dasturlash tushunchalari bilan tanishadilar.
 
-## Key Concepts to Focus On
+## E’tibor Qaratiladigan Asosiy Tushunchalar
 
-- **Ask and Wait**: Teach students how to ask the user for input and wait for the response.
-- **Operators**: Focus on using arithmetic operators (`+`, `-`) to perform calculations.
-- **Conditionals**: Use `if` statements to check the user’s input and choose the correct operation.
-- **Say Block**: Display the result of the calculation using the `say` block.
+- **So‘rash va kutish (Ask and Wait)**: O‘quvchilarga foydalanuvchidan ma’lumot olish va javobni kutish blokini o‘rgating.
+- **Operatorlar**: Arifmetik operatorlar (`+`, `-`) yordamida hisoblashlar bajarishni tushuntiring.
+- **Shart operatorlari (If)**: `if` blokidan foydalanib, foydalanuvchi kiritgan ma’lumotni tekshirish va to‘g‘ri amalni tanlash.
+- **Say bloki**: `say` blokidan foydalanib natijani ekranga chiqarish.
 
-## Detailed Plan
+## Batafsil Reja
 
-1. **Introduction (10-15 minutes)**  
-   - Explain the goal of the project: to create a calculator that asks the user for two numbers and then performs a calculation based on their choice.
-   - Introduce the basic interface of Scratch and where to find the blocks for input and output.
+1. **Kirish (10-15 daqiqa)**  
+   - Loyiha maqsadini tushuntiring: foydalanuvchidan ikki son so‘rab, ularning tanlovi asosida hisob-kitob bajaradigan kalkulyator yaratish.
+   - Scratch interfeysini va kirish/chiqarish bloklarini qayerdan topish mumkinligini ko‘rsating.
 
-2. **Step-by-Step Instructions**  
-   - Step 1: Set up the user interface with sprite and a backdrop.
-   - Step 2: Use the `ask` block to prompt the user for two numbers.
-   - Step 3: Use `if` statements and arithmetic operators to perform calculations based on the user’s input.
-   - Step 4: Use the `say` block to display the result to the user.
+2. **Bosqichma-bosqich Yo‘riqnoma**  
+   - 1-bosqich: Sprit va fon (backdrop) yordamida foydalanuvchi interfeysini sozlang.
+   - 2-bosqich: `ask` blokidan foydalanib foydalanuvchidan ikki son so‘rang.
+   - 3-bosqich: `if` bloklari va arifmetik operatorlardan foydalanib foydalanuvchi tanloviga asosan hisob-kitoblarni bajaring.
+   - 4-bosqich: `say` blokidan foydalanib foydalanuvchiga natijani ko‘rsating.
 
-3. **Teacher’s Tips**  
-   - Make sure students understand how to use the `ask` and `wait` blocks together to gather input from the user.
-   - Emphasize the importance of comparing the input (using `if` and comparison blocks) and performing the correct arithmetic operation.
-   - Show them how to update the calculator's design by adding more operations, like modulus or exponents, if they have time.
+3. **O‘qituvchiga Maslahatlar**  
+   - O‘quvchilar `ask` va `wait` bloklaridan birgalikda qanday foydalanishni yaxshi tushunishlariga ishonch hosil qiling.
+   - `if` va taqqoslash bloklari yordamida foydalanuvchi kiritgan qiymatni tahlil qilish va to‘g‘ri amallarni bajarish muhimligini ta’kidlang.
+   - Agar vaqt bo‘lsa, kalkulyatorga foiz (modulus), daraja (exponent) kabi qo‘shimcha funksiyalar qo‘shishni ko‘rsating.
 
-4. **Troubleshooting Common Issues**  
-   - Issue: The result is incorrect after the user inputs their numbers.
-     - Solution: Ensure students use the correct arithmetic operator (e.g., `+` for addition, `-` for subtraction) and the `if` blocks are set up properly.
-   - Issue: The calculator only works for one type of operation.
-     - Solution: Explain how to use multiple `if` blocks to handle different types of calculations based on user input.
+4. **Ko‘p Uchraydigan Muammolar va Yechimlar**  
+   - Muammo: Foydalanuvchi son kiritgach noto‘g‘ri natija chiqadi.  
+     - Yechim: O‘quvchilar to‘g‘ri arifmetik operatorlardan foydalanganini va `if` bloklari to‘g‘ri tuzilganini tekshirib chiqing.
+   - Muammo: Kalkulyator faqat bitta amalni bajara oladi.  
+     - Yechim: Foydalanuvchi turli hisoblash amallarini tanlay olishi uchun bir nechta `if` bloklaridan qanday foydalanishni tushuntiring.
 
-5. **Home work**  
-   - Challenge students to make the calculator handle more operations, like devision and multiplication.
-   - Add a feature that allows users to clear the screen and reset the calculator.
+5. **Uyga Vazifa**  
+   - O‘quvchilarga kalkulyatorga ko‘paytirish va bo‘lish amallarini qo‘shish vazifasini bering.
+   - Foydalanuvchi ekranni tozalash va kalkulyatorni qayta ishga tushirish funksiyasini qo‘shishi mumkinligini taklif qiling.
 
-## Conclusion
+## Xulosa
 
-By the end of this project, students will have created a fully functional calculator and learned how to use input blocks, arithmetic operations, and conditionals to perform calculations and show results to the user.
+Loyiha yakunida o‘quvchilar to‘liq ishlaydigan kalkulyator yaratadilar va foydalanuvchi kiritmalarini olish, arifmetik amallarni bajarish va natijalarni chiqarish uchun Scratch bloklaridan qanday foydalanishni o‘rganadilar.

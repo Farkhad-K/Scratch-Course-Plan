@@ -1,74 +1,83 @@
-# Project : Food Catcher 🍎🍔
+# Loyiha: Food Catcher 🍎🍔
 
-## Project Overview
+## Loyiha Sharhi
 
-In this project, students will create a fun **game** where the player controls a sprite (the basket) that catches falling food items. The game will introduce students to a variety of essential Scratch concepts, including **cloning**, **sprite movement**, **collision detection**, and **scoring**. This is the first game project in the course, so it’s a great opportunity to get students familiar with using Scratch to build interactive experiences.
+Ushbu loyihada o‘quvchilar **Food Catcher** deb nomlangan qiziqarli o‘yin yaratadilar, unda o‘yinchi tushayotgan ovqatlarni ushlab oladigan savat (sprite) boshqaradi. O‘yin o‘quvchilarga Scratch dasturida **klonlash**, **sprite harakati**, **to‘qnashuvni aniqlash** va **hisob yuritish** kabi muhim tushunchalarni o‘rgatadi. Bu kursdagi birinchi o‘yin loyihasi bo‘lib, o‘quvchilarni Scratch bilan tanishtirish uchun yaxshi imkoniyatdir.
 
-The goal of this project is to give students a solid foundation in how to create games, using basic programming concepts like controlling sprites with the keyboard, detecting collisions, and cloning objects.
+Loyihaning maqsadi — o‘quvchilarga klaviatura orqali sprite boshqarish, to‘qnashuvlarni aniqlash va obyektlarni klonlash kabi dasturlash asoslarini o‘rgatish.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **Cloning**: Teach students how to create clones of food items that fall from the top of the screen.
-- **Keyboard Control**: Use arrow keys or other key events to control the movement of the player’s sprite (the basket).
-- **Sensing**: Detect when the basket touches the falling food using **`touching`** blocks.
-- **Scorekeeping**: Introduce variables to keep track of the score and display it on the screen.
+- **Klonlash**: Tushayotgan ovqat elementlarining nusxalarini yaratishni o‘rgating.
+- **Klaviatura boshqaruvi**: O‘yinchi sprite’sini (savatni) chap va o‘ngga harakatlantirish uchun o‘q tugmalaridan foydalaning.
+- **Sensorlar**: Savat tushayotgan ovqatga tegganini **`touching`** bloki yordamida aniqlang.
+- **Hisobni saqlash**: Ochko yig‘ish uchun o‘zgaruvchilar yaratish va ekranda ko‘rsatish.
 
-## Detailed Plan
+## Batafsil Reja
 
-1. **Introduction (10-15 minutes)**
-   - Explain the purpose of the project: students will create a game where they control a basket to catch falling food items.
-   - Introduce the **Scratch interface** and briefly explain key blocks like `when green flag clicked`, `move`, and `if <touching?>`.
-   - Discuss **cloning**, **keyboard controls**, and **collision detection**.
+### 1. Kirish (10–15 daqiqa)
+- Loyihaning maqsadini tushuntiring: o‘quvchilar tushayotgan ovqatlarni ushlash uchun savat boshqaradilar.
+- **Scratch interfeysi** bilan tanishtiring va asosiy bloklar — `when green flag clicked`, `move`, `if <touching?>` haqida qisqacha tushuntiring.
+- **Klonlash**, **klaviatura boshqaruvi** va **to‘qnashuvni aniqlash** haqida gapiring.
 
-2. **Step-by-Step Instructions**
-   - **Step 1**: Create two sprites:
-     - A **basket** sprite that the player will control.
-     - A **food** sprite (such as an apple or hamburger) that will fall from the top of the screen.
-   - **Step 2**: Set up the basket:
-     - Use the `when green flag clicked` block to start the game.
-     - Use the `go to x: [value] y: [value]` block to position the basket at the bottom of the screen.
-     - Add keyboard controls to move the basket left and right. You can use `when [left arrow] key pressed` and `when [right arrow] key pressed` blocks, and the `change x by [value]` block to move the basket.
-   - **Step 3**: Add clones of the food sprite:
-     - Use the `create clone of [food]` block to make the food fall from the top of the screen.
-     - The food clones should start at random x positions and fall downward.
-     - Use a `forever` loop to make sure the food continues falling.
-     - When a food clone touches the bottom of the screen (or the basket), it will disappear.
-   - **Step 4**: Handle collisions:
-     - Use the `if <touching [basket]> then` block to check when the food clone touches the basket.
-     - If it does, increase the score and destroy the clone.
-     - If the food clone touches the bottom without being caught, decrease the score or add a "miss" counter.
-   - **Step 5**: Add a score counter:
-     - Create a **variable** (e.g., "Score") to keep track of the number of food items caught.
-     - Use the `change [variable] by [value]` block to increase or decrease the score.
-     - Display the score on the screen using the `show variable [variable]` block.
-   - **Step 6**: Add sound effects:
-     - Play a sound when the basket catches a food item or when the food hits the ground.
+### 2. Bosqichma-bosqich ko‘rsatmalar
 
-3. **Teacher’s Tips**
-   - Focus on the main concepts: **sprite movement**, **cloning**, and **sensing**.
-   - Explain the basic idea behind clones and how they allow multiple copies of the same sprite to be created.
-   - Encourage students to use the **`forever`** and **`if`** loops to ensure that the game runs continuously and checks for collisions throughout the game.
+#### 1-bosqich: Ikkita sprite yarating
+- O‘yinchi boshqaradigan **savat** sprite’si.
+- Ekran yuqorisidan tushadigan **ovqat** sprite’si (masalan, olma yoki gamburger).
 
-4. **Troubleshooting Common Issues**
-   - **Issue**: The basket is not moving smoothly.
-     - **Solution**: Double-check the movement controls and make sure that the basket is only moving left or right when the appropriate key is pressed.
-   - **Issue**: The food clone is not falling or disappearing.
-     - **Solution**: Ensure that the clone’s position is being set correctly at the top of the screen and that the `change y by [value]` block is inside a `forever` loop.
-     - Ensure that you are using the `delete this clone` block when the clone is either caught or falls to the bottom.
-   - **Issue**: The score is not updating.
-     - **Solution**: Check if the `change [score] by [value]` block is correctly placed after the collision detection (`if <touching [basket]> then`).
+#### 2-bosqich: Savatni sozlash
+- `when green flag clicked` blokini o‘yinni boshlash uchun qo‘llang.
+- `go to x: [qiymat] y: [qiymat]` bloki bilan savatni ekranning pastki qismiga joylashtiring.
+- Chap va o‘ngga harakat uchun klaviatura boshqaruvini qo‘shing: `when [left arrow] key pressed`, `when [right arrow] key pressed` bloklari va `change x by [qiymat]` blokidan foydalaning.
 
-5. **Extension Ideas**
-   - Add **levels** to the game where the food falls faster as the score increases.
-   - Include multiple types of food (some could give positive points, while others could take away points or lives).
-   - Add a **timer** to challenge students to catch as much food as possible in a limited time.
-   - Use **sound effects** for catching food, missing food, or for game-over events.
-   - Create a **game over screen** that appears after a certain number of missed items, and give the option to restart the game.
+#### 3-bosqich: Ovqat klonlarini qo‘shing
+- `create clone of [food]` bloki yordamida ovqat klonlarini yarating.
+- Klonlar tasodifiy x koordinatalardan boshlanib, pastga tushadi.
+- Ovqat doimiy tushishi uchun `forever` siklidan foydalaning.
+- Ovqat kloni ekran pastiga yetganda yoki savatga tegsa, yo‘qolishi kerak.
 
-## Conclusion
+#### 4-bosqich: To‘qnashuvlarni boshqarish
+- `if <touching [basket]> then` bloki yordamida ovqat savatga tegishini aniqlang.
+- Tegsa, ochkoni oshiring va klonni o‘chirib yuboring.
+- Agar ovqat pastga tushib, ushlanmasa, ochkoni kamaytirish yoki "miss" hisoblagichini oshirish mumkin.
 
-By the end of this project, students will have created a complete **Food Catcher** game with basic interactive gameplay. They will have used essential **Scratch concepts** such as cloning, sprite movement with keyboard controls, collision detection, and scorekeeping. This project is a great introduction to building interactive games in Scratch and will set the stage for more complex projects later in the course.
+#### 5-bosqich: Hisobni qo‘shish
+- Ovqatlarni ushlash sonini saqlash uchun **o‘zgaruvchi** (masalan, "Score") yarating.
+- `change [Score] by [1]` blokidan ochko oshirish uchun foydalaning.
+- Ekranda ochkoni ko‘rsatish uchun `show variable [Score]` blokini qo‘shing.
+
+#### 6-bosqich: Ovoz effektlarini qo‘shing
+- Savat ovqatni ushlaganda yoki ovqat yerga teganda ovoz chiqaring.
+
+### 3. O‘qituvchiga Maslahatlar
+
+- Asosiy tushunchalarga e’tibor qarating: **sprite harakati**, **klonlash** va **sensorlar**.
+- Klonlarning nima ekanligi va ular yordamida bir nechta nusxalar yaratilishini tushuntiring.
+- O‘quvchilarni **`forever`** va **`if`** sikllaridan foydalangan holda o‘yin doimiy ishlashini ta’minlashga rag‘batlantiring.
+
+### 4. Ko‘p uchraydigan muammolar va ularning yechimlari
+
+- **Muammo**: Savat silliq harakat qilmayapti.
+  - **Yechim**: Harakat boshqaruvlarini tekshirib, savat faqat mos tugma bosilganda harakat qilayotganiga ishonch hosil qiling.
+- **Muammo**: Ovqat kloni tushmayapti yoki yo‘qolmayapti.
+  - **Yechim**: Klonning boshlang‘ich joylashuvi to‘g‘ri belgilangani va `change y by [qiymat]` bloki `forever` ichida ishlatilayotganini tekshiring.
+  - Klon ushlanganda yoki pastga tushganda `delete this clone` blokidan foydalaning.
+- **Muammo**: Hisob yangilanmayapti.
+  - **Yechim**: `change [Score] by [1]` bloki to‘qnashuvdan keyin ishlayotganiga e’tibor bering.
+
+### 5. Qo‘shimcha G‘oyalar
+
+- O‘yinga **darajalar** qo‘shing: ochko oshgani sari ovqat tezroq tushsin.
+- Turli xil ovqatlar qo‘shing: ba’zilari ochko qo‘shadi, boshqalari ochkoni kamaytiradi yoki hayotni olib qo‘yadi.
+- O‘yin uchun **timer** qo‘shing va berilgan vaqt ichida qancha ovqat ushlash mumkinligini sinab ko‘ring.
+- Ovqat ushlash, ushlamaslik yoki o‘yin tugashi uchun **ovoz effektlari** qo‘shing.
+- Belgilangan soni ushlanmagan ovqatdan so‘ng **o‘yin tugadi** ekranini yaratib, o‘yin qayta boshlanishini taklif qiling.
+
+## Xulosa
+
+Loyiha oxirida o‘quvchilar to‘liq ishlaydigan **Food Catcher** o‘yinini yaratadilar, unda asosiy Scratch tushunchalari — klonlash, klaviatura yordamida sprite harakati, to‘qnashuvni aniqlash va hisob yuritish qo‘llaniladi. Bu loyiha Scratch’da interaktiv o‘yin yaratishni o‘rgatish uchun juda yaxshi kirish hisoblanadi va keyingi murakkab loyihalar uchun poydevor yaratadi.
 
 ---
 
-### **Note**: This project is designed to give students hands-on experience with various important Scratch concepts while creating a fun and engaging game. It is an excellent first game project, as it covers a variety of important features without becoming too complicated.
+### **Eslatma**: Ushbu loyiha o‘quvchilarga Scratch dasturining turli muhim tushunchalarini amalda o‘rganish imkonini beradi va qiziqarli o‘yinni yaratishga yo‘naltirilgan. Bu birinchi o‘yin loyihasi sifatida juda mos keladi, chunki ko‘plab muhim funksiyalarni qamrab oladi, lekin murakkab emas.

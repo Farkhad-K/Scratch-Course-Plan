@@ -1,89 +1,89 @@
 # Space Shooter 🚀🌑
 
-## Project Overview
+## Loyihaning Tavsifi
 
-In this project, students will create a **Space Shooter** game where the player controls a space rocket and must dodge falling rocks. The game will be vertical-scrolling, meaning that the screen will move downward as the player avoids obstacles. The goal of the game is to survive as long as possible while dodging the falling rocks, and the player will earn points for each second they survive.
+Ushbu loyihada talabalar **Space Shooter** o‘yinini yaratadilar, bunda o‘yinchi kosmik raketkani boshqaradi va tushayotgan toshlardan qochishi kerak bo‘ladi. O‘yin vertikal aylantirishga ega bo‘lib, o‘yinchi to‘siqlardan qocharkan, ekran pastga harakatlanadi. O‘yinning maqsadi – tushayotgan toshlardan imkon qadar uzoqroq yashab qolish va har soniya uchun ball olish.
 
-This game will serve as a **repetition** and **refinement** exercise for all the **code blocks** that students have learned so far, including:
+Bu o‘yin talabalar uchun hozirgacha o‘rgangan barcha **kod bloklari**ni takrorlash va takomillashtirish mashqi bo‘ladi, jumladan:
 
-- **Movement and Control**: Moving the rocket with arrow keys.
-- **Randomization**: Making the rocks fall at random positions and speeds.
-- **Collision Detection**: Detecting when the rocket collides with a rock.
-- **Score System**: Tracking how long the player survives.
-- **Cloning**: Creating multiple falling rocks.
+- **Harakat va boshqarish**: Raketkani strelka tugmalari bilan harakatlantirish.
+- **Tasodifiylik**: Toshlarning tasodifiy joylashuvi va tezlikda tushishi.
+- **To‘qnashuvni aniqlash**: Raketka va tosh o‘rtasida to‘qnashuvni aniqlash.
+- **Ball tizimi**: O‘yinchi qancha vaqt yashab qolganini hisoblash.
+- **Klonlash**: Ko‘p toshlarni yaratish.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **Movement**: Use `when key pressed` blocks for controlling the rocket with arrow keys.
-- **Randomization**: Use the `pick random` block for randomizing rock speeds, positions, and spawn rates.
-- **Collision Detection**: Detect when the rocket collides with a rock using `if <touching [rock]>` blocks.
-- **Cloning**: Use cloning to create multiple falling rocks.
-- **Score System**: Implement a score system that tracks the player’s survival time.
-- **Game Flow**: Introduce a game-over condition when the rocket hits a rock.
+- **Harakat**: Raketkani strelka tugmalari yordamida boshqarish uchun `when key pressed` bloklaridan foydalanish.
+- **Tasodifiylik**: Toshlarning tezligi, joylashuvi va paydo bo‘lish tezligini tasodifiylashtirish uchun `pick random` blokidan foydalanish.
+- **To‘qnashuvni aniqlash**: `if <touching [rock]>` bloklari yordamida to‘qnashuvni aniqlash.
+- **Klonlash**: Ko‘p toshlarni yaratish uchun klonlashdan foydalanish.
+- **Ball tizimi**: O‘yinchi yashab qolgan vaqtni hisoblash.
+- **O‘yin jarayoni**: Raketka toshga teganda o‘yinni to‘xtatish va **Game Over** ko‘rsatish.
 
-## Detailed Plan
+## Batafsil Reja
 
-### 1. Introduction (10-15 minutes)
-- Explain the purpose of the game: Control a rocket to dodge falling rocks.
-- Discuss how the game will use **movement**, **collision detection**, **randomization**, and **cloning** to create a dynamic experience.
+### 1. Kirish (10-15 daqiqa)
+- O‘yin maqsadini tushuntirish: raketkani boshqarib, tushayotgan toshlardan qochish.
+- O‘yinda **harakat**, **to‘qnashuvni aniqlash**, **tasodifiylik** va **klonlash** qanday ishlashini tushuntirish.
 
-### 2. Step-by-Step Instructions
+### 2. Qadam-baqadam ko‘rsatmalar
 
-#### Step 1: Set Up the Rocket Sprite
-- Create the **rocket sprite** that the player will control.
-- Use `when key pressed` blocks to move the rocket left and right (using the left and right arrow keys).
-- Limit the rocket's vertical movement (to keep it in the game view) by using the `y` position.
-  
-#### Step 2: Set Up the Rock Sprite
-- Create a **rock sprite** that will fall from the top of the screen.
-- Use the `create clone of [myself]` block to make multiple rocks appear.
-- Use `go to x: [pick random] y: [pick random]` to spawn rocks at random horizontal positions and give them a starting point off-screen at random vertical heights.
-  
-#### Step 3: Make the Rocks Fall
-- Use the `glide` or `change y by` blocks to make the rocks fall at a random speed.
-- Randomize the speed of each rock using `pick random` blocks (e.g., `pick random -5 to -10` for downward speed).
+#### Qadam 1: Raketka sprite’ini yaratish
+- O‘yinchi boshqaradigan **raketka sprite**ini yaratish.
+- Raketkani chap va o‘ngga harakatlantirish uchun `when key pressed` bloklaridan foydalanish.
+- Raketkaning vertikal harakatini `y` pozitsiyasini cheklash orqali o‘yin maydonida ushlab turish.
 
-#### Step 4: Collision Detection and Game Over
-- Use the `if <touching [rock]>` block to detect when the rocket collides with a rock.
-- If a collision is detected, stop the game and display a **Game Over** message.
-  
-#### Step 5: Implement the Score System
-- Create a **score variable** to track the time the player survives.
-- Increase the score by 1 every second (using a `wait 1 second` block inside a loop).
-- If the rocket collides with a rock, stop increasing the score and display the final score.
+#### Qadam 2: Tosh sprite’ini yaratish
+- Ekranning yuqorisidan tushadigan **tosh sprite**ini yaratish.
+- `create clone of [myself]` blokini ishlatib ko‘p toshlarni yaratish.
+- `go to x: [pick random] y: [pick random]` bloklari yordamida toshlarni tasodifiy gorizontal joylashuvda va ekran tashqarisidagi vertikal balandliklarda paydo qilish.
 
-#### Step 6: Use Cloning for Multiple Rocks
-- Use the `create clone of [myself]` block to create multiple rocks at different positions.
-- Each cloned rock will fall at a random speed, and when it reaches the bottom of the screen, it should be deleted or respawned.
+#### Qadam 3: Toshlarni tushirish
+- Toshlarni tushirish uchun `glide` yoki `change y by` bloklaridan foydalanish.
+- Har bir toshning tezligini `pick random` bloklari yordamida tasodifiylashtirish (masalan, `pick random -5 dan -10 gacha`).
 
-### 3. Teacher’s Tips
-- **Movement**: Remind students that the rocket’s movement should be constrained to the horizontal axis, so the `if` block can help to keep the rocket within the game view.
-- **Randomization**: Emphasize how to use `pick random` to vary rock speeds and spawn points. Randomized gameplay adds unpredictability to the game.
-- **Cloning**: Ensure students are comfortable with the `create clone of [myself]` block and that they know how to reset the cloned rock’s position after it falls off the screen.
+#### Qadam 4: To‘qnashuvni aniqlash va o‘yin tugashi
+- Raketka toshga teganda `if <touching [rock]>` blokidan foydalanish.
+- To‘qnashuv aniqlansa, o‘yinni to‘xtatib, **Game Over** xabarini ko‘rsatish.
 
-### 4. Troubleshooting Common Issues
+#### Qadam 5: Ball tizimini yaratish
+- O‘yinchi yashab qolgan vaqtni hisoblash uchun **score** o‘zgaruvchisini yaratish.
+- Har soniya ballni 1 taga oshirish uchun `wait 1 second` blokini ichida sikl ishlatish.
+- Raketka toshga tegganda ball oshishini to‘xtatib, yakuniy ballni ko‘rsatish.
 
-- **Issue**: The rocket moves off the screen.
-  - **Solution**: Use the `if <x position > [value]>` and `if <x position < [value]>` blocks to keep the rocket within certain horizontal limits.
-  
-- **Issue**: Rocks are not falling properly or too fast.
-  - **Solution**: Adjust the speed by modifying the `pick random` block for the `change y by` block. Test different random ranges for more variety in the speeds.
+#### Qadam 6: Ko‘p toshlar uchun klonlashdan foydalanish
+- Turli joylarda bir nechta toshlar yaratish uchun `create clone of [myself]` blokidan foydalanish.
+- Har bir klon tasodifiy tezlikda tushadi va ekran pastiga yetganda o‘chiriladi yoki qayta paydo bo‘ladi.
 
-- **Issue**: The score does not increase correctly.
-  - **Solution**: Ensure the score is increased in the correct place (inside a loop) and that it only stops when the game is over. Make sure there are no conflicting `stop all` blocks affecting the score.
+### 3. O‘qituvchi uchun maslahatlar
+- **Harakat**: Raketkaning harakati faqat gorizontal bo‘lishi kerakligini eslatish, `if` bloklari yordamida raketkani o‘yin maydonidan chiqib ketishining oldini olish.
+- **Tasodifiylik**: `pick random` blokidan qanday foydalanishni va o‘yinga tasodifiylik qo‘shishni tushuntirish.
+- **Klonlash**: Talabalarga klonlashni yaxshi tushuntirish va klon toshlarni ekran tashqarisiga chiqqanda qayta sozlashni o‘rgatish.
 
-### 5. Extension Ideas
+### 4. Ko‘p uchraydigan muammolar va yechimlar
 
-- Add **sound effects** for when the rocket moves, when a rock hits the rocket, and when the game is over.
-- Introduce **power-ups** (such as shields or speed boosts) that appear randomly and temporarily help the rocket avoid rocks.
-- Make the **rocks spawn faster** over time to increase the difficulty of the game as the player survives longer.
-- Add **background music** to create a more immersive experience.
-- Introduce **levels** where the rocks fall at different speeds or new obstacles are introduced.
+- **Muammo**: Raketka ekran tashqarisiga chiqib ketadi.
+  - **Yechim**: `if <x position > [qiymat]>` va `if <x position < [qiymat]>` bloklari yordamida raketkaning gorizontal harakatini cheklash.
 
-## Conclusion
+- **Muammo**: Toshlar to‘g‘ri tushmayapti yoki juda tez.
+  - **Yechim**: `pick random` blokini sozlash orqali tushish tezligini moslashtirish, turli diapazonlarni sinab ko‘rish.
 
-By the end of this project, students will have built a **Space Shooter** game where the goal is to dodge falling rocks. They will have revisited and applied key concepts like **movement**, **collision detection**, **randomization**, **cloning**, and **scorekeeping**. This project is an excellent opportunity to practice their skills in **game design** and **event handling** while building an engaging and fun vertical-scrolling game.
+- **Muammo**: Ball noto‘g‘ri oshmoqda.
+  - **Yechim**: Ball oshishi uchun sikl ichida va faqat o‘yin davomida hisoblanishini ta’minlash, to‘xtash holatini to‘g‘ri sozlash.
+
+### 5. Qo‘shimcha g‘oyalar
+
+- Raketka harakatida, toshga tegilganda va o‘yin tugaganda tovush effektlari qo‘shish.
+- Tasodifiy paydo bo‘ladigan himoya yoki tezlik oshiruvchi power-up’lar qo‘shish.
+- O‘yin davomida toshlar tezligini oshirib, qiyinchilikni ko‘tarish.
+- Orqa fon musiqasi qo‘shib, o‘yin tajribasini yaxshilash.
+- Turli darajalar yaratib, toshlar turli tezlikda tushishini yoki yangi to‘siqlar qo‘shilishini ta’minlash.
+
+## Xulosa
+
+Ushbu loyiha oxirida talabalar tushayotgan toshlardan qochish maqsadida raketkani boshqaradigan **Space Shooter** o‘yinini yaratadilar. Ular **harakat**, **to‘qnashuvni aniqlash**, **tasodifiylik**, **klonlash** va **ball tizimi** kabi muhim tushunchalarni qayta ko‘rib chiqib, amalda qo‘llaydilar. Bu loyiha o‘yin dizayni va hodisalarni boshqarish ko‘nikmalarini mustahkamlash uchun ajoyib imkoniyatdir.
 
 ---
 
-### **Note**: The **Space Shooter** game provides an excellent review of many of the concepts learned throughout previous projects. Students will gain further experience with handling random events, sprite interactions, and maintaining game flow—all of which are crucial in game development.
+### **Eslatma**: **Space Shooter** o‘yini ilgari o‘rgangan ko‘plab tushunchalarni mukammal takrorlash va mustahkamlash imkonini beradi. Talabalar tasodifiy hodisalar, sprite’lar o‘zaro ta’siri va o‘yin jarayonini boshqarish bo‘yicha yanada ko‘proq tajriba orttiradilar, bu esa o‘yin ishlab chiqishda juda muhimdir.

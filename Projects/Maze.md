@@ -1,77 +1,81 @@
-# Project : Maze Game 🌀
+# Loyiha: Labirint O‘yini 🌀
 
-## Project Overview
+## Loyiha Sharhi
 
-The **Maze Game** is the most challenging and complex game in this course. It is designed to be completed towards the end of the course, after students have gained a solid understanding of Scratch and its capabilities. In this project, students will create a maze with a character that navigates through it, avoiding obstacles and reaching the finish point.
+**Labirint O‘yini** kursdagi eng murakkab va qiyin o‘yinlardan biridir. U kurs oxirida, o‘quvchilar Scratch va uning imkoniyatlarini yaxshi o‘zlashtirgach bajarilishi uchun mo‘ljallangan. Ushbu loyihada o‘quvchilar labirint yaratib, qahramon bilan uni aylanib o‘tib, to‘siqlardan qochib, oxirgi nuqtaga yetib borishni amalga oshiradilar.
 
-This game involves a combination of multiple concepts, including **collision detection**, **level design**, **sprite movement**, and **game logic**. The goal of this project is to show students how complex and interactive games can be created using Scratch. Students will work through creating a fully functional maze, where they can customize levels and include additional game features, such as timers, scoring, and power-ups.
+Bu o‘yinda bir nechta tushunchalar birlashtiriladi: **to‘qnashuvni aniqlash**, **daraja dizayni**, **sprite harakati** va **o‘yin mantiqi**. Loyihaning maqsadi o‘quvchilarga Scratch yordamida murakkab va interaktiv o‘yinlar yaratishni ko‘rsatishdir. O‘quvchilar to‘liq ishlaydigan labirint yaratadilar, darajalarni sozlashlari, shuningdek, vaqt o‘lchagich, ball tizimi va quvvatlar kabi qo‘shimcha funksiyalarni qo‘shishlari mumkin.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **Collision Detection**: Detecting collisions between the player and walls, as well as handling when the player touches the maze boundaries.
-- **Movement Control**: Using arrow keys (or WASD) to move the character around the maze.
-- **Level Design**: Setting up and designing the maze, including walls, paths, and start/end points.
-- **Game Logic**: Implementing win conditions (reaching the end), time limits, and score tracking.
+- **To‘qnashuvni aniqlash**: O‘yinchi bilan devorlar orasidagi to‘qnashuvlarni aniqlash va o‘yinchi labirint chegaralariga tegsa qanday harakat qilishini boshqarish.
+- **Harakatni boshqarish**: Qahramonni labirint bo‘ylab o‘q tugmalari (yoki WASD) yordamida harakatlantirish.
+- **Daraja dizayni**: Labirintni devorlar, yo‘llar va boshlanish/oxir nuqtalari bilan yaratish.
+- **O‘yin mantiqi**: G‘alaba shartlarini (oxiriga yetish), vaqt chegarasini va ball hisobini qo‘llash.
 
-## Detailed Plan
+## Batafsil Reja
 
-1. **Introduction (15-20 minutes)**
-   - Explain the goal of the project: students will create a **maze game** where a character has to navigate through a maze and reach the end point.
-   - Discuss **collision detection** and how it works in a maze (i.e., detecting when the player touches walls).
-   - Introduce the **movement control system** and how to move the character using keyboard arrows or other keys.
-   - Explain how to design the maze layout, and the importance of creating **clear paths** and **obstacles**.
+1. **Kirish (15-20 daqiqa)**
+   - Loyihaning maqsadini tushuntiring: o‘quvchilar labirint o‘yini yaratadilar, qahramon labirint bo‘ylab harakat qilib, oxirgi nuqtaga yetib borishi kerak.
+   - **To‘qnashuvni aniqlash** qanday ishlashini tushuntiring (o‘yinchi devorlarga teganda).
+   - **Harakatni boshqarish** tizimini, ya’ni qahramonni klaviaturadagi o‘q tugmalari yoki boshqa tugmalar yordamida qanday harakatlantirishni tushuntiring.
+   - Labirint dizayni va undagi **aniq yo‘llar** hamda **to‘siqlar**ning ahamiyatini ta’kidlang.
 
-2. **Step-by-Step Instructions**
-   - **Step 1**: Create the Maze:
-     - Use a **backdrop** to draw the maze or design walls with the **paint editor**.
-     - Add **wall sprites** to the stage (one for each wall section) or use a simple backdrop and detect collision with these walls.
-   - **Step 2**: Character Setup:
-     - Create a **player sprite** (e.g., a character that the user controls).
-     - Set the initial position of the sprite at the **start point** of the maze.
-     - Use **arrow keys** or **WASD keys** for character movement (`when key pressed` block).
-   - **Step 3**: Movement Logic:
-     - Use **`change x by`** and **`change y by`** blocks to control the character's movement based on keyboard inputs.
-     - Limit movement so that the character cannot go through walls (use collision detection).
-   - **Step 4**: Collision Detection:
-     - Use the `if <touching [wall]> then` block to stop the player when they hit a wall.
-     - Optionally, you can create visual effects (like changing the player’s costume or playing a sound) when the player collides with a wall.
-   - **Step 5**: Win Condition:
-     - Create a **finish point** (a specific area or sprite).
-     - Use the `if <touching [finish]> then` block to detect when the player reaches the end of the maze and display a **win message** or play a sound.
-   - **Step 6**: Timer and Scoring:
-     - Add a **timer** to track how long it takes for the player to finish the maze.
-     - Add a **score** variable that decreases with time, rewarding players for faster completion.
-   - **Step 7**: Additional Features (Optional):
-     - Add multiple levels with increasing difficulty (larger mazes, more obstacles, or timed challenges).
-     - Include **power-ups** that temporarily make the player invincible or move faster.
-     - Add sound effects and music to make the game more engaging.
+2. **Bosqichma-bosqich ko‘rsatmalar**
 
-3. **Teacher’s Tips**
-   - **Start simple**: The maze doesn’t have to be overly complex at first. Focus on getting the basic mechanics down before adding extra features.
-   - **Collision detection** is critical: Ensure that the player can’t cheat by going through walls, and make sure all the wall and finish point sprites are set up correctly.
-   - Encourage students to **experiment with levels**: The more creative they get with maze design, the more challenging and fun the game will be.
-   - **Use broadcast messages** to transition between levels or when the game is over.
-   - Explain how to **debug** issues with wall collisions, such as making sure the player sprite stays within bounds.
+   - **1-bosqich**: Labirint yaratish:
+     - Labirintni chizish uchun **fon rasmi**dan foydalaning yoki **rasm muharriri** yordamida devorlarni yarating.
+     - Sahnaga har bir devor uchun alohida **devor sprite’lari** qo‘shing yoki oddiy fon bilan devorlar bilan to‘qnashuvni aniqlang.
+   - **2-bosqich**: Qahramonni tayyorlash:
+     - Foydalanuvchi boshqaradigan **o‘yinchi sprite’ini** yarating.
+     - Sprite’ni labirintdagi **boshlanish nuqtasiga** joylashtiring.
+     - Harakat uchun **o‘q tugmalari** yoki **WASD tugmalari** (`when key pressed` bloki) dan foydalaning.
+   - **3-bosqich**: Harakat mantiqi:
+     - Klaviatura kirishlariga asoslanib, qahramonning harakatini boshqarish uchun **`change x by`** va **`change y by`** bloklaridan foydalaning.
+     - Qahramon devorlardan o‘tmasligi uchun harakatni cheklang (to‘qnashuvni aniqlash).
+   - **4-bosqich**: To‘qnashuvni aniqlash:
+     - `if <touching [wall]> then` blokidan foydalanib, o‘yinchini devorga teganda to‘xtating.
+     - Istalgan holda, devorga urilganda ko‘rinish yoki ovoz effektlarini qo‘shishingiz mumkin.
+   - **5-bosqich**: G‘alaba sharti:
+     - Maxsus **yakun nuqtasi** (hudud yoki sprite) yarating.
+     - `if <touching [finish]> then` blokidan foydalanib, o‘yinchi oxiriga yetganda g‘alaba xabarini ko‘rsating yoki ovoz chalishni sozlang.
+   - **6-bosqich**: Vaqt va ball hisoblash:
+     - O‘yinchi labirintni qancha vaqtda tugatishini kuzatish uchun **vaqt o‘lchagich** qo‘shing.
+     - Vaqt o‘tishi bilan kamayadigan va tez tugatganlarga ball beradigan **ball o‘zgaruvchisi** yarating.
+   - **7-bosqich**: Qo‘shimcha funksiyalar (ixtiyoriy):
+     - Murakkabligi oshadigan bir nechta darajalar qo‘shing (katta labirintlar, ko‘proq to‘siqlar yoki vaqt cheklovlari).
+     - O‘yinchini vaqtinchalik buzilmas yoki tezroq harakatlantiradigan **quvvatlar** qo‘shing.
+     - O‘yinni yanada qiziqarli qilish uchun musiqa va ovoz effektlari qo‘shing.
 
-4. **Troubleshooting Common Issues**
-   - **Issue**: The player sprite can walk through walls.
-     - **Solution**: Ensure that the `if <touching [wall]> then` block is correctly implemented to stop the player from moving through the walls.
-   - **Issue**: The player is not moving smoothly.
-     - **Solution**: Make sure that the `change x by` and `change y by` blocks are used correctly and that the sprite is not moving too fast or too slow.
-   - **Issue**: The finish point is not being detected.
-     - **Solution**: Check that the finish area is properly set up, and use `touching [finish point]` for collision detection.
+3. **O‘qituvchiga Maslahatlar**
 
-5. **Extension Ideas**
-   - Create multiple **maze designs** that students can choose from, each with a unique layout.
-   - Introduce **randomly generated mazes**: After finishing one level, a new maze is created each time.
-   - Add **enemies or obstacles** that move around the maze, making it more difficult for the player to reach the end.
-   - Include a **timer** that challenges players to complete the maze within a set amount of time.
-   - Add a **score system** that rewards players for each level completed, and tracks high scores.
+- **Boshlanishda oddiyroq** bo‘ling: Avval asosiy mexanizmlarni o‘rnatib, keyin qo‘shimcha funksiyalar qo‘shing.
+- **To‘qnashuvni aniqlash juda muhim**: O‘yinchi devorlardan o‘tmasligini ta’minlang va devor hamda yakun nuqtalari sprite’lari to‘g‘ri sozlanganini tekshiring.
+- O‘quvchilarni **darajalar bilan tajriba o‘tkazishga** rag‘batlantiring: Qancha ijodiy yondashsalar, o‘yin shuncha qiziqarli va qiyin bo‘ladi.
+- Darajalar o‘rtasida yoki o‘yin tugaganda **broadcast xabarlaridan** foydalaning.
+- Devorga urilishdagi muammolarni tuzatishda yordam bering — qahramon sprite’ining chegaralar ichida qolishini tekshiring.
 
-## Conclusion
+4. **Ko‘p uchraydigan muammolar**
 
-By the end of this project, students will have a fully functional maze game that showcases their ability to create complex interactions and game mechanics in Scratch. They will understand **collision detection**, **movement control**, **level design**, and **game logic**—key skills that will help them with more advanced game development.
+- **Muammo**: O‘yinchi devorlardan o‘tib ketmoqda.
+  - **Yechim**: `if <touching [wall]> then` blokining to‘g‘ri ishlashini tekshiring va o‘yinchini to‘xtatish mexanizmini qayta ko‘rib chiqing.
+- **Muammo**: O‘yinchi harakati silliq emas.
+  - **Yechim**: `change x by` va `change y by` bloklarining to‘g‘ri ishlashini tekshiring, harakat tezligini moslashtiring.
+- **Muammo**: Yakun nuqtasi aniqlanmayapti.
+  - **Yechim**: Yakun hududi to‘g‘ri sozlanganligiga va `touching [finish point]` blokidan to‘g‘ri foydalanilayotganiga ishonch hosil qiling.
+
+5. **Qo‘shimcha G‘oyalar**
+
+- O‘quvchilar tanlay oladigan bir nechta **labirint dizaynlarini** yarating.
+- Har darajadan so‘ng tasodifiy yaratiladigan **labirintlar** qo‘shing.
+- Labirint bo‘ylab harakatlanuvchi dushmanlar yoki to‘siqlar qo‘shing, bu o‘yinni qiyinlashtiradi.
+- O‘yinchilarga labirintni ma’lum vaqt ichida tugatishni talab qiluvchi **vaqt o‘lchagich** qo‘shing.
+- Har bir darajani tugatganda ball beruvchi va yuqori ballarni yozib boruvchi **ball tizimi** yaratish.
+
+## Xulosa
+
+Ushbu loyiha yakunida o‘quvchilar Scratch’da murakkab o‘zaro ta’sirlar va o‘yin mexanizmlarini yaratish qobiliyatini namoyish qiluvchi to‘liq ishlaydigan labirint o‘yinini yaratadilar. Ular **to‘qnashuvni aniqlash**, **harakatni boshqarish**, **daraja dizayni** va **o‘yin mantiqi** kabi asosiy ko‘nikmalarga ega bo‘ladilar — bu ko‘nikmalar keyingi rivojlangan o‘yinlarni yaratishda juda foydali bo‘ladi.
 
 ---
 
-### **Note**: The **Maze Game** is an excellent culmination of all the skills learned throughout the course. It challenges students to use their creativity and problem-solving skills to build a fully interactive game. It also shows them the potential of Scratch to create real, complex games that can be as intricate as those made with more advanced programming languages.
+### **Eslatma**: **Labirint O‘yini** kurs davomida o‘rganilgan barcha ko‘nikmalarning mukammal yakunidir. U o‘quvchilardan ijodkorlik va muammolarni hal qilish ko‘nikmalarini ishga solishni talab qiladi hamda Scratch yordamida murakkab va real o‘yinlarni yaratish imkoniyatlarini ko‘rsatadi.

@@ -1,16 +1,16 @@
-# 😺Scratch Course Plan
+# 😺Scratch Kurs Rejasi
 
-Welcome to the **Scratch Course Plan** repository! 🎉 This repository is designed to provide detailed plans and instructions for teaching Scratch programming projects to students. Each project comes with a specific .md file, which includes a breakdown of key code blocks, concepts, and tips that the teacher should focus on during lessons.
+**Scratch Kurs Rejasi** repozitoriyasiga xush kelibsiz! 🎉 Ushbu repozitoriya Scratch dasturlash loyihalarini o‘quvchilarga o‘rgatish uchun batafsil reja va ko‘rsatmalarni taqdim etadi. Har bir loyiha alohida .md fayl ko‘rinishida beriladi, u muhim kod bloklari, tushunchalar va dars davomida o‘qituvchi e’tibor qaratishi kerak bo‘lgan maslahatlar bilan ta’minlangan.
 
-## Course Overview👀
+## Kursga Umumiy Nazar👀
 
-This course introduces students to the world of programming using **Scratch**, a visual programming language. The course is structured to teach fundamental programming concepts through a series of hands-on projects. The goal is to build creative problem-solving skills while having fun with interactive, animated projects. 🚀
+Ushbu kurs o‘quvchilarni **Scratch** – vizual dasturlash tili orqali dasturlash olamiga kirish bilan tanishtiradi. Kurs amaliy loyihalar orqali asosiy dasturlash tushunchalarini o‘rgatishga mo‘ljallangan. Maqsad – o‘quvchilarning ijodiy muammo hal qilish ko‘nikmalarini rivojlantirish va interaktiv, animatsiyali loyihalar orqali o‘rganishni qiziqarli qilish. 🚀
 
-## Course Structure📃
+## Kurs Tuzilishi📃
 
-The course consists of **21 projects** spread across **36 lessons**, with some projects being covered over multiple days. Below is a summary of the course schedule:
+Kurs **21 ta loyiha** va **36 ta darsdan** iborat bo‘lib, ba’zi loyihalar bir nechta dars davomida o‘tiladi. Quyida kurs jadvalining qisqacha ko‘rinishi keltirilgan:
 
-| **№** | **Projects to be done in class** | **Number of lessons to complete the project** |
+| **№** | **Darsda bajariladigan loyihalar** | **Loyihani bajarish uchun darslar soni** |
 |---------|-----------------------------------|------------------|
 | **1**   | [Introduction](#lesson-1-introduction-1-day)                     | 1 |
 | **2**   | [Dialogue](./Projects/Dialogue.md)                           | 1 |
@@ -21,96 +21,96 @@ The course consists of **21 projects** spread across **36 lessons**, with some p
 | **7**   | [Paddle game](./Projects/Paddle%20game.md)                      | 2 |
 | **8**   | [Calculator](./Projects/Calculator.md)                       | 1 |
 | **9**   | [Paint](./Projects/Paint.md)                            | 2 |
-| **10**  | Microsoft Power Point or Google slide (Presentation) | 2 |
+| **10**  | Microsoft Power Point yoki Google Slide (taqdimot) | 2 |
 | **11**  | [Shooter game](./Projects/Shooter%20game.sb3)                     | 2 |
 | **12**  | [War game](./Projects/War%20game.sb3)                         | 2 |
-| **13**  | Review and competition on MonkeyType | 1 |
+| **13**  | MonkeyType bo‘yicha takrorlash va musobaqa | 1 |
 | **14**  | [Drawing shapes](./Projects/Drawing%20shapes.md)                   | 1 |
 | **15**  | [Space shooter](./Projects/Space%20Shooter.md)                    | 1 |
 | **16**  | [Ping-Pong (2-player paddle game)](./Projects/Ping-Pong.md) | 2 |
-| **17**  | Review and competition on MonkeyType | 1 |
+| **17**  | MonkeyType bo‘yicha takrorlash va musobaqa | 1 |
 | **18**  | [Driving](./Projects/Racing.md)                          | 2 |
 | **19**  | [Canoe](./Projects/Canoe.md)                            | 2 |
-| **20**  | Review and competition on MonkeyType | 1 |
+| **20**  | MonkeyType bo‘yicha takrorlash va musobaqa | 1 |
 | **21**  | [Racing](./Projects/Racing.md)                           | 1 |
 | **22**  | [Maze](./Projects/Maze.md)                             | 4 |
 
-> **❗❗❗Warning:**  
-> Before starting the course, teachers should request a teacher account on [Scratch Educators Registration](https://scratch.mit.edu/educators/register). This is necessary to create student accounts. Please note that the approval process may take approximately 3-5 business days. Plan accordingly!
+> **❗❗❗Ogohlantirish:**  
+> Kursni boshlashdan oldin o‘qituvchilar [Scratch o‘qituvchilar uchun ro‘yxatdan o‘tish](https://scratch.mit.edu/educators/register) sahifasida o‘qituvchi akkaunti yaratishlari kerak. Bu o‘quvchilar uchun akkauntlar yaratishda zarur. Ro‘yxatdan o‘tish 3-5 ish kuni davom etishi mumkin. Oldindan rejalashtiring!
 
-### Project Breakdown
+### Loyihalar Tafsiloti
 
-1. ##### Lesson 1: Introduction (1 day)  
-   - Getting to know the students, registering on [Scratch](https://scratch.mit.edu/) and [Typing](https://www.typing.com/) sites. 📚
-   - And explaining X/Y coordinates
+1. ##### 1-dars: Kirish (1 kun)  
+   - O‘quvchilar bilan tanishish, [Scratch](https://scratch.mit.edu/) va [Typing](https://www.typing.com/) saytlarida ro‘yxatdan o‘tish 📚  
+   - X/Y koordinatalarini tushuntirish
 
-2. **Lesson 2: Dialog** (1 day)  
-   - Students will create an interactive dialogue between characters. 🗣️
+2. **2-dars: Dialog** (1 kun)  
+   - Belgilar o‘rtasida interaktiv suhbat yaratish. 🗣️
 
-3. **Lesson 3: Word Animation** (1 day)  
-   - Learn how to animate words and text with Scratch. ✍️
+3. **3-dars: So‘z animatsiyasi** (1 kun)  
+   - Scratch orqali so‘z va matn animatsiyasini o‘rganish. ✍️
 
-4. **Lesson 4: Food Catcher** (2 days)  
-   - A fun game where players catch falling food items. 🍎🍔
+4. **4-dars: Ovqat ushlovchi o‘yin** (2 kun)  
+   - O‘yinchilar tushayotgan ovqatlarni ushlaydigan o‘yin. 🍎🍔
 
-5. **Lesson 5: Chick & Egg** (2 days)  
-   - A simple game where a chick tries jump over eggs(alternatively [Chrome dino](./Projects/Chrome-dino.sb3) project could be used). 🐣🥚
+5. **5-dars: Jo‘ja va Tuxum** (2 kun)  
+   - Jo‘ja tuxumlardan sakraydigan oddiy o‘yin (alternativa sifatida [Chrome dino](./Projects/Chrome-dino.sb3)). 🐣🥚
 
-6. **Lesson 6: Fish & Frog** (2 days)  
-   - A project where students animate a fish and frog interacting. 🐟🐸
+6. **6-dars: Baliq va Qurbaqa** (2 kun)  
+   - Baliq va qurbaqaning o‘zaro harakatlanishini animatsiya qilish. 🐟🐸
 
-7. **Lesson 7: Paddle Game** (2 days)  
-   - Classic paddle-and-ball game similar to Pong. 🏓
+7. **7-dars: Paddle o‘yini** (2 kun)  
+   - Pongga o‘xshash klassik to‘p va raketka o‘yini. 🏓
 
-8. **Lesson 8: Calculator** (1 day)  
-   - Create a simple Scratch calculator. ➗
+8. **8-dars: Kalkulyator** (1 kun)  
+   - Oddiy Scratch kalkulyatori yaratish. ➗
 
-9. **Lesson 9: Paint** (2 days)  
-   - Build a drawing app where users can paint. 🎨
+9. **9-dars: Rassomlik ilovasi** (2 kun)  
+   - Foydalanuvchilar chiza oladigan rasm chizish ilovasi yaratish. 🎨
 
-10. **Lesson 10: PowerPoint or Google Slide (Presentation)** (2 days)  
-    - Students will create their own interactive presentations. 📊
+10. **10-dars: PowerPoint yoki Google Slide (taqdimot)** (2 kun)  
+    - Interaktiv taqdimotlar yaratish. 📊
 
-11. **Lesson 11: Shooter Game** (2 days)  
-    - A hunting game where player should hunt birds. 🐦
+11. **11-dars: Otish o‘yini** (2 kun)  
+    - Qushlarni otadigan o‘yin. 🐦
 
-12. **Lesson 12: War Game** (2 days)  
-    - A basic war-themed game where characters engage in battle. ⚔️
+12. **12-dars: Urush o‘yini** (2 kun)  
+    - Qahramonlar jang qiladigan oddiy urush o‘yini. ⚔️
 
-13. **Lesson 13: Review and competition on MonkeyType** (1 day)  
-    - Review topics learned and compete on typing.com. ⌨️
+13. **13-dars: Takrorlash va MonkeyType musobaqasi** (1 kun)  
+    - O‘rganilgan mavzularni takrorlash va typing.com da musobaqa. ⌨️
 
-14. **Lesson 14: Drawing Shapes** (1 day)  
-    - Teach students how to draw various shapes using code. 🔵🟣
+14. **14-dars: Shakllar chizish** (1 kun)  
+    - Kod orqali turli shakllarni chizishni o‘rgatish. 🔵🟣
 
-15. **Lesson 15: Space Shooter** (1 day)  
-    - Build a space-themed shooting game where players control a spaceship. 👽🛸
+15. **15-dars: Kosmik o‘yin** (1 kun)  
+    - Kosmik mavzudagi otishma o‘yini yaratish. 👽🛸
 
-16. **Lesson 16: Ping-Pong (2-player paddle game)** (2 days)  
-    - A 2-player ping-pong game to develop interactive gameplay. 🏓
+16. **16-dars: Ping-Pong (2 o‘yinchili o‘yin)** (2 kun)  
+    - 2 o‘yinchili ping-pong o‘yini yaratish. 🏓
 
-17. **Lesson 17: Driving** (2 days)  
-    - Create a simple driving simulation game. 🚗
+17. **17-dars: Haydash simulyatori** (2 kun)  
+    - Oddiy haydash simulyatsiya o‘yini yaratish. 🚗
 
-18. **Lesson 18: Canoe** (2 days)  
-    - A project where students animate a canoe on water. 🚣‍♂️
+18. **18-dars: Kanu** (2 kun)  
+    - Suvda harakatlanayotgan kanu animatsiyasini yaratish. 🚣‍♂️
 
-19. **Lesson 19: Review and competition on MonkeyType** (1 day)  
-    - Final review and typing competition. ⌨️🏆
+19. **19-dars: Takrorlash va MonkeyType musobaqasi** (1 kun)  
+    - Yakuniy takrorlash va yozuv musobaqasi. ⌨️🏆
 
-20. **Lesson 20: Racing** (1 day)  
-    - A racing game where players compete against each other. 🏁
+20. **20-dars: Poyga** (1 kun)  
+    - O‘yinchilar o‘zaro raqobatlashadigan poyga o‘yini. 🏁
 
-21. **Lesson 21: Maze** (4 days)  
-    - A complex maze game project that challenges students. 🌀
+21. **21-dars: Labirint** (4 kun)  
+    - Murakkab labirint o‘yini – o‘quvchilar uchun haqiqiy sinov. 🌀
 
-## Key Features of This Course
+## Kursning Asosiy Xususiyatlari
 
-- **Interactive Learning**: Each project is designed to keep students engaged by solving real-world problems with Scratch. 🎮
-- **Teacher Guides**: The course includes markdown files for each project, detailing the important code blocks, concepts, and teaching tips. 📑
+- **Interaktiv O‘rganish**: Har bir loyiha o‘quvchilarni haqiqiy muammolarni Scratch orqali hal qilishga undaydi. 🎮  
+- **O‘qituvchi uchun qo‘llanmalar**: Har bir loyiha uchun markdown fayllar mavjud bo‘lib, ularda muhim kod bloklari, tushunchalar va dars o‘tish bo‘yicha maslahatlar mavjud. 📑
 
-## Getting Started
+## Boshlash
 
-1. Clone the repository:
+1. Repozitoriyani klonlash:
    ```bash
    git clone https://github.com/Farkhad-K/Scratch-Course-Plan.git

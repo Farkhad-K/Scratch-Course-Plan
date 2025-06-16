@@ -1,61 +1,65 @@
-# Project : Paint 🎨
+# Loyiha: Paint 🎨
 
-## Project Overview
+## Loyiha Sharhi
 
-In this project, students will create a simple drawing application that simulates a paint program, similar to the classic Paint app in Windows. The project introduces the use of the **Pen extension** in Scratch, which allows students to draw on the screen with their sprite, creating an interactive and creative experience. This is one of the first projects where students will actively use Scratch's extensions to expand the capabilities of their projects.
+Ushbu loyihada o‘quvchilar Windows’dagi klassik Paint dasturiga o‘xshash oddiy rasm chizish ilovasini yaratadilar. Loyihada Scratch’ning **Pen kengaytmasi**dan foydalanish o‘rgatiladi, bu esa sprite yordamida ekran ustida chizishga imkon beradi va interaktiv hamda ijodiy tajriba yaratadi. Bu o‘quvchilar uchun Scratch kengaytmalarini qo‘llash orqali loyihalarni kengaytirish bo‘yicha birinchi loyihalardan biridir.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **Pen Extension**: Teach students how to use the Pen extension to draw on the screen. This involves using blocks like `pen down`, `pen up`, and `set pen color`.
-- **Mouse Input**: Use the `mouse x` and `mouse y` blocks to track the position of the mouse and draw at that location.
-- **Variables**: Students can create variables to keep track of pen color or line thickness.
-- **Conditional Statements**: Use `if` blocks to switch between drawing and erasing.
+- **Pen kengaytmasi**: Pen kengaytmasidan foydalanishni o‘rgatish — `pen down`, `pen up`, `set pen color` kabi bloklar.
+- **Mushuk pozitsiyasi**: `mouse x` va `mouse y` bloklari yordamida sichqoncha pozitsiyasini kuzatish va shu joyda chizish.
+- **O‘zgaruvchilar**: Pen rangi yoki chiziq qalinligini saqlash uchun o‘zgaruvchilar yaratish.
+- **Shartli ifodalar**: `if` bloklari yordamida chizish va o‘chirish (eraser) rejimlari orasida almashish.
 
-## Detailed Plan
+## Batafsil Reja
 
-1. **Introduction (10-15 minutes)**
-   - Explain the goal of the project: to create a simple drawing app.
-   - Introduce the **Pen extension** and explain how it allows sprites to draw on the screen.
-   - Discuss the basic layout and controls of a paint program (e.g., choosing colors, drawing, erasing).
+1. **Kirish (10-15 daqiqa)**
+   - Loyihaning maqsadini tushuntirish: oddiy rasm chizish ilovasini yaratish.
+   - **Pen kengaytmasi**ni tanishtirish va uning sprite’ga qanday chizish imkonini berishini tushuntirish.
+   - Rasm chizish dasturining asosiy boshqaruv elementlari haqida gaplashish (rang tanlash, chizish, o‘chirish).
 
-2. **Step-by-Step Instructions**
-   - Step 1: Add the **Pen extension** to the Scratch project.
-     - Show students how to find the **Pen** category in the Scratch blocks palette and drag the required blocks into the code area.
-   - Step 2: Set up the pen to draw.
-     - Use the `when green flag clicked` block to start the project.
-     - Add `clear` to reset the screen.
-     - Use `pen down` to start drawing and `pen up` to stop.
-   - Step 3: Draw with the mouse.
-     - Use the `go to [mouse pointer]` block to move the sprite to the mouse’s current position and `pen down` to draw as the sprite moves.
-   - Step 4: Create a simple button to change the pen color.
-     - Use a `when this sprite clicked` block to change the pen’s color.
-   - Step 5: Add an eraser feature.
-     - Create a new sprite for the eraser and use `pen up` to stop drawing when the eraser is selected.
+2. **Bosqichma-bosqich ko‘rsatmalar**
 
-3. **Teacher’s Tips**
-   - **Pen Extension**: Emphasize how to use the Pen extension properly, especially how the pen must be “down” to draw and “up” to stop.
-   - **Mouse Interaction**: Make sure students understand how the mouse’s position is tracked and how it’s used to control the sprite’s movements.
-   - **Color Change**: Allow students to explore different colors and experiment with making their paint program more dynamic.
-   - Encourage students to personalize their projects by adding extra features, such as a **clear screen** button or different brush sizes.
+   - **1-bosqich**: Scratch loyihasiga **Pen kengaytmasini** qo‘shish.
+     - O‘quvchilarga Scratch bloklar palitrasida Pen kategoriyasini topib, kerakli bloklarni kod maydoniga tortishni ko‘rsatish.
+   - **2-bosqich**: Pen’ni chizish uchun sozlash.
+     - `when green flag clicked` blokidan foydalanib loyihani boshlash.
+     - Ekranni tozalash uchun `clear` blokini qo‘shish.
+     - Chizishni boshlash uchun `pen down`, to‘xtatish uchun `pen up` bloklaridan foydalanish.
+   - **3-bosqich**: Sichqoncha yordamida chizish.
+     - Sprite’ni sichqonchaning joriy pozitsiyasiga `go to [mouse pointer]` bloki yordamida harakatlantirish va harakat davomida `pen down` bilan chizishni ta’minlash.
+   - **4-bosqich**: Pen rangini o‘zgartirish uchun oddiy tugma yaratish.
+     - `when this sprite clicked` bloki yordamida pen rangini o‘zgartirish.
+   - **5-bosqich**: O‘chiruvchi (eraser) funksiyasini qo‘shish.
+     - Yangi sprite yaratib, o‘chiruvchi sifatida ishlatish va tanlanganda `pen up` blokini ishlatib chizishni to‘xtatish.
 
-4. **Troubleshooting Common Issues**
-   - Issue: The drawing is not smooth.
-     - Solution: Ensure that the sprite is constantly moving to the mouse position. You might need to use `go to [mouse pointer]` more frequently.
-   - Issue: The pen won’t start drawing.
-     - Solution: Check if `pen down` is in the right place, and ensure it is triggered when the green flag is clicked.
-   - Issue: The drawing doesn’t reset when the green flag is clicked.
-     - Solution: Add the `clear` block at the start of the script to clear the screen every time the project starts.
+3. **O‘qituvchiga Maslahatlar**
 
-5. **Extension Ideas**
-   - Create buttons to switch between different **pen colors** or change **pen sizes** using variables.
-   - Add a **clear button** to reset the drawing.
-   - Allow the student to add a **save option** (to save the current drawing) or even simulate drawing different shapes like circles and squares.
-   - Challenge students to design a **mini game** where they draw specific objects based on prompts.
+- **Pen kengaytmasi**ni qanday to‘g‘ri ishlatishni, ya’ni pen “down” bo‘lsa chizishini, “up” bo‘lsa chizishni to‘xtatishini ta’kidlang.
+- Sichqonchaning pozitsiyasini qanday kuzatish va sprite’ni unga qanday yetkazishni tushuntiring.
+- O‘quvchilarga turli ranglarni sinab ko‘rish va chizishni yanada qiziqarli qilish uchun imkon bering.
+- Loyihani shaxsiylashtirish uchun qo‘shimcha funksiyalar, masalan, **ekranni tozalash tugmasi** yoki turli qalinlikdagi cho‘tka o‘lchamlarini qo‘shishni rag‘batlantiring.
 
-## Conclusion
+4. **Ko‘p uchraydigan muammolar**
 
-By the end of this project, students will have created a fully functional drawing app that simulates the basic features of a paint program. They will also gain experience with the **Pen extension**, mouse control, and event handling. This project serves as a great introduction to more interactive Scratch projects and builds confidence in using extensions and more advanced Scratch features.
+- Muammo: Chizish silliq bo‘lmayapti.
+  - Yechim: Sprite sichqonchaning pozitsiyasiga doimiy va tez-tez harakat qilayotganiga ishonch hosil qiling.
+- Muammo: Pen chizishni boshlamayapti.
+  - Yechim: `pen down` blokining to‘g‘ri joyda va to‘g‘ri vaqtda ishlatilayotganini tekshiring.
+- Muammo: Loyihani boshlaganda chizilgan rasm o‘chmayapti.
+  - Yechim: Skript boshida `clear` blokini qo‘shib, har safar tozalashni ta’minlang.
+
+5. **Qo‘shimcha G‘oyalar**
+
+- Turli **pen ranglari** va **cho‘tka o‘lchamlari** orasida almashish uchun tugmalar yaratish va o‘zgaruvchilardan foydalanish.
+- **Ekranni tozalash** uchun tugma qo‘shish.
+- Rasmni saqlash opsiyasini yaratish yoki turli shakllarni (doira, to‘rtburchak) chizish funksiyasini qo‘shish.
+- O‘quvchilarni ma’lum buyruqlar asosida rasm chizishga undaydigan kichik o‘yinlar yaratishga chaqirish.
+
+## Xulosa
+
+Ushbu loyiha yakunida o‘quvchilar Paint dasturining asosiy funksiyalarini taqlid qiluvchi to‘liq ishlaydigan rasm chizish ilovasini yaratadilar. Shuningdek, ular **Pen kengaytmasi**, sichqoncha boshqaruvi va voqealar bilan ishlash tajribasiga ega bo‘ladilar. Bu loyiha interaktiv Scratch loyihalariga kirishish uchun juda yaxshi va kengaytmalar hamda ilg‘or Scratch imkoniyatlarini o‘rganish uchun mustahkam poydevor yaratadi.
 
 ---
 
-### **Note**: This project will allow students to gain creative experience with Scratch and understand the importance of extensions in adding new features to their projects.
+### **Eslatma**: Ushbu loyiha o‘quvchilarga Scratch’da ijodiy ishlash va kengaytmalar yordamida loyihalarining imkoniyatlarini kengaytirish ahamiyatini anglashga yordam beradi.

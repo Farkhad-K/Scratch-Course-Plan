@@ -1,72 +1,72 @@
-# Project : Shooter Game 🦅🔫
+# Loyiha: Shooter O'yini 🦅🔫
 
-## Project Overview
+## Loyihaning Tavsifi
 
-In this project, students will create a **shooter game** where the goal is to hunt down flying birds. The game will introduce the concept of **broadcasting** and **receiving messages** in Scratch. Players will control a shooter sprite that can shoot at birds that fly across the screen. When the bird is hit, it disappears, and the player earns points.
+Ushbu loyihada talabalar qushlarni ovlash maqsadida **shooter o'yini** yaratadilar. O'yinda Scratch dasturida **broadcasting** (xabar yuborish) va **qabul qilish** tushunchalari qo'llaniladi. O'yinchi o'q otuvchi sprite’ni boshqaradi, u ekran bo'ylab uchib o'tayotgan qushlarga o'q uzadi. Qush urilganda, u yo'qoladi va o'yinchi ball oladi.
 
-This is a simple **hunting game** where students will apply the concepts of **sprite interaction**, **broadcasting**, and **cloning** to create a dynamic game. It’s a great introduction to managing game events like starting a new round, scoring, and updating the screen.
+Bu oddiy **ov o'yini** bo‘lib, talabalar unda **sprite’lar o‘zaro muloqoti**, **broadcasting** va **klonlash** tushunchalarini amaliy qo‘llaydilar. O'yin jarayonini boshqarish, yangi raund boshlash, ballarni hisoblash va ekran yangilash kabi mavzular uchun yaxshi kirishdir.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **Broadcasting**: Teach students how to send and receive messages between sprites to coordinate actions (e.g., making the bird disappear when hit).
-- **Cloning**: Guide students to use cloning to make multiple birds appear and fly across the screen.
-- **Collision Detection**: Explain how to detect when the bullet touches the bird and trigger actions (like making the bird disappear).
-- **Score System**: Help students implement a score system to track how many birds the player has successfully hit.
+- **Broadcasting**: Sprite’lar orasida xabarlar yuborish va qabul qilishni o‘rgatish (masalan, qush urilganda uni yo‘q qilish).
+- **Klonlash**: Bir nechta qushlarni yaratish va ularni ekran bo‘ylab uchirish uchun klonlashdan foydalanish.
+- **To‘qnashuvni aniqlash**: Oq otgan paytda o‘q qushga tegishini aniqlash va kerakli harakatlarni bajarish.
+- **Ball tizimi**: O‘yinchi qancha qushni urganini hisoblash uchun ball tizimini yaratish.
 
-## Detailed Plan
+## Batafsil Reja
 
-1. **Introduction (10-15 minutes)**
-   - Explain the purpose of the game: to hunt down birds flying across the screen by shooting at them.
-   - Introduce the **broadcast** and **receive** blocks that will allow sprites to communicate with each other.
-   - Discuss how clones will be used for creating multiple birds and how collision detection works.
+1. **Kirish (10-15 daqiqa)**
+   - O'yinning maqsadini tushuntirish: ekranda uchib o'tayotgan qushlarni o'q bilan ovlash.
+   - **broadcast** va **receive** bloklarini tanishtirish, sprite’lar o‘rtasida muloqot qanday amalga oshishini ko‘rsatish.
+   - Klonlash va to‘qnashuvni aniqlash qanday ishlashini tushuntirish.
 
-2. **Step-by-Step Instructions**
-   - **Step 1**: Set up the shooter and bird sprites:
-     - Create a **shooter sprite** that will be controlled by the player.
-     - Create a **bird sprite** that will fly across the screen.
-   - **Step 2**: Control the shooter sprite:
-     - Use the `when key pressed` blocks to move the shooter left and right (for example, using the left and right arrow keys).
-     - Use the `when space key pressed` block to shoot a bullet.
-   - **Step 3**: Create the bullet sprite:
-     - Design a simple bullet sprite.
-     - Make the bullet move upwards when the player presses the spacebar.
-     - Use `if <touching [bird]>` blocks to detect when the bullet hits a bird.
-   - **Step 4**: Set up broadcasting:
-     - When the bullet hits a bird, use the `broadcast [Bird Hit]` block to send a message that the bird has been hit.
-     - Use the `when I receive [Bird Hit]` block in the bird sprite to hide the bird and increase the score.
-   - **Step 5**: Implement the score system:
-     - Create a **score variable** to track the player's score.
-     - When the bird is hit, increase the score using the `change score by 1` block.
-   - **Step 6**: Use cloning for multiple birds:
-     - Use the `create clone of [myself]` block to create new birds that will move across the screen.
-     - Set each cloned bird to fly in random directions.
-     - Use the `when I start as a clone` block to initialize the bird’s movement and position when cloned.
+2. **Qadam-baqadam ko‘rsatmalar**
+   - **Qadam 1**: Shooter va qush sprite’larini yaratish:
+     - O‘yinni boshqaruvchi **shooter sprite** yaratish.
+     - Ekranda uchib yuradigan **qush sprite** yaratish.
+   - **Qadam 2**: Shooter sprite’ini boshqarish:
+     - `when key pressed` bloklari yordamida shooterni chap va o‘ngga harakatlantirish (masalan, chap va o‘ng strelka tugmalari).
+     - `when space key pressed` blokidan foydalanib o‘q otish.
+   - **Qadam 3**: O‘q sprite’ini yaratish:
+     - Oddiy o‘q sprite’ini yaratish.
+     - Space tugmasi bosilganda o‘q tepaga harakat qilishi.
+     - `if <touching [qush]>` bloklari yordamida o‘q qushga tegishini aniqlash.
+   - **Qadam 4**: Broadcasting o‘rnatish:
+     - O‘q qushga teganda `broadcast [Bird Hit]` blokini ishlatib, qush urilgani haqida xabar yuborish.
+     - Qush sprite’ida `when I receive [Bird Hit]` bloki yordamida qushni yashirish va ballni oshirish.
+   - **Qadam 5**: Ball tizimini yaratish:
+     - O‘yinchi ballini hisoblash uchun **score** o‘zgaruvchisini yaratish.
+     - Qush urilganda `change score by 1` blokini ishlatib ballni oshirish.
+   - **Qadam 6**: Bir nechta qushlar uchun klonlashdan foydalanish:
+     - `create clone of [myself]` blokini qo‘llab yangi qushlarni yaratish.
+     - Har bir klon tasodifiy yo‘nalishda harakat qilishi.
+     - `when I start as a clone` bloki yordamida har bir klon ishga tushirilganda pozitsiyasi va harakati belgilanadi.
 
-3. **Teacher’s Tips**
-   - Emphasize the use of **broadcasting** to make different sprites work together, such as making the bird disappear when the bullet hits it.
-   - Ensure students understand how **cloning** works, especially when using it to create multiple birds that fly across the screen.
-   - If students struggle with broadcasting and receiving messages, walk them through the process of creating and receiving a message in a simple example, such as having one sprite say something when another sprite sends a message.
-   - Remind students to check that their **collision detection** (bullet hitting the bird) works properly by using the `if <touching [bird]>` block.
+3. **O‘qituvchi uchun maslahatlar**
+   - Turli sprite’lar birgalikda ishlashi uchun **broadcasting**dan foydalanishni urg‘u bering (masalan, o‘q qushga teganda qushni yo‘q qilish).
+   - Talabalarga **klonlash**ni yaxshi tushuntiring, ayniqsa ko‘p qushlarni yaratish va ularni ekranda harakatlantirish uchun.
+   - Agar talabalar broadcasting va xabar qabul qilishda qiynalsa, oddiy misol bilan ko‘rsatib bering: bir sprite xabar yuboradi, boshqasi esa uni qabul qilib, amal bajaradi.
+   - To‘qnashuvni aniqlash (`if <touching [qush]>`) to‘g‘ri ishlashiga e'tibor bering.
 
-4. **Troubleshooting Common Issues**
-   - **Issue**: The bullet doesn't disappear when it hits the bird.
-     - **Solution**: Check that the bullet's code includes a `hide` block when it touches the bird and that the `broadcast [Bird Hit]` block is used correctly to trigger the hiding.
-   - **Issue**: The birds don’t clone or move randomly.
-     - **Solution**: Ensure that the `create clone of [myself]` block is placed in the correct spot (likely in a loop) to continually create birds, and that the clones use `go to random position` and `glide` blocks to move.
-   - **Issue**: The score doesn’t update when the bird is hit.
-     - **Solution**: Double-check the `change score by 1` block and make sure it is inside the `when I receive [Bird Hit]` block in the bird sprite, after it has been hit.
+4. **Ko‘p uchraydigan muammolar va yechimlar**
+   - **Muammo**: O‘q qushga tegganda yo‘qolmaydi.
+     - **Yechim**: O‘q kodi ichida qushga tegganda `hide` bloki borligiga va `broadcast [Bird Hit]` to‘g‘ri ishlatilganiga ishonch hosil qiling.
+   - **Muammo**: Qushlar klonlanmaydi yoki tasodifiy harakatlanmaydi.
+     - **Yechim**: `create clone of [myself]` bloki to‘g‘ri joyda (odatda sikl ichida) ekanligini, klonlar tasodifiy joyga borishi va `glide` bloklari ishlatilayotganini tekshiring.
+   - **Muammo**: Ball qush urilganda yangilanmaydi.
+     - **Yechim**: `change score by 1` bloki `when I receive [Bird Hit]` blokida ekanligini va to‘g‘ri ishlashini tekshiring.
 
-5. **Extension Ideas**
-   - Add **sound effects** for when the player shoots the bullet and when the bird is hit.
-   - Include a **timer** that limits the game to a certain duration, and declare a winner when the time is up.
-   - Introduce **multiple levels** by making the birds move faster or spawn more frequently as the game progresses.
-   - Create a **game-over screen** that shows the player’s final score after they miss too many birds or after the timer runs out.
-   - Add **background music** or a **scoreboard** to enhance the overall experience of the game.
+5. **Qo‘shimcha g‘oyalar**
+   - O‘q uzishda va qush urilganda tovush effektlarini qo‘shish.
+   - O‘yin vaqtini cheklovchi **taymer** qo‘shish va vaqt tugaganda g‘olibni e’lon qilish.
+   - O‘yin qiyinlashishi uchun qushlarning tezligini oshirish yoki ularning ko‘payishini darajalarga bo‘lish.
+   - Ko‘p qushni o'tkazib yuborilganda yoki vaqt tugagach **Game Over** ekrani ko‘rsatish.
+   - Orqa fon musiqasi yoki ball jadvali (scoreboard) qo‘shish.
 
-## Conclusion
+## Xulosa
 
-By the end of this project, students will have built a **hunting game** where they control a shooter to hunt down birds using broadcasting and cloning. They will understand how to make different sprites communicate using broadcasts, and how to create clones to handle multiple enemies in the game. This project will help students gain experience in **game flow management**, **event handling**, and **scorekeeping**, which are crucial skills in game design.
+Ushbu loyiha oxirida talabalar **broadcasting** va **klonlash** yordamida qushlarni ovlaydigan shooter o‘yinini yaratadilar. Ular sprite’lar orasida xabarlar almashish va ko‘p dushmanlarni boshqarish uchun klonlashdan foydalanishni o‘rganadilar. Bu loyiha o‘yin oqimini boshqarish, hodisalar bilan ishlash va ball tizimini yaratish kabi muhim ko‘nikmalarni mustahkamlashga yordam beradi.
 
 ---
 
-### **Note**: The **Shooter Game** provides a solid introduction to more advanced concepts like **broadcasting** and **cloning**, preparing students for future projects that involve more complex sprite interactions and event-driven programming.
+### **Eslatma**: **Shooter O'yini** talabalarga yanada murakkab sprite o‘zaro ta’siri va voqea asosida dasturlashga kirish uchun yaxshi poydevor yaratadi.

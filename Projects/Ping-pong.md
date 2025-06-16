@@ -1,67 +1,72 @@
-# Project : Ping Pong (2-Player Game) 🏓
+# Loyiha: Ping Pong (2-o‘yinchi uchun) 🏓
 
-## Project Overview
+## Loyiha Sharhi
 
-In this project, students will create a **2-player Ping Pong** game, similar to the classic Pong game. This game allows two players to control paddles on either side of the screen and hit a ball back and forth. The goal is to keep the ball in play and score points by getting the ball past the opponent’s paddle.
+Ushbu loyihada o‘quvchilar klassik Pong o‘yini kabi **2-o‘yinchi uchun Ping Pong** o‘yinini yaratadilar. Ushbu o‘yinda ikki o‘yinchi ekraning har ikki tomonida joylashgan paddlarni boshqarib, to‘pni bir-biriga urib o‘ynaydi. Maqsad — to‘pni doim o‘yinda saqlash va raqibning paddini o‘tkazib, ochko olish.
 
-This project introduces students to the concept of **multi-player interaction**, teaching them how to handle **two sets of controls**, **collision detection** with multiple paddles, and managing the **score system** for both players.
+Loyiha o‘quvchilarga **ko‘p o‘yinchili interaktivlik** tushunchasini o‘rgatadi, ikki boshqaruv tizimini qo‘llash, bir nechta paddlar bilan **to‘qnashuvni aniqlash** va har ikkala o‘yinchi uchun **hisobni boshqarishni** o‘rgatadi.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **Sprite Interaction**: Handling interactions between two paddles and a bouncing ball.
-- **Movement Control**: Managing player input for both paddles using keyboard controls.
-- **Collision Detection**: Detecting when the ball touches the paddles or edges of the screen.
-- **Scoring System**: Creating a score variable to keep track of each player’s points.
+- **Spritelar o‘zaro ta’siri**: ikki padd va sakrayotgan to‘p o‘rtasidagi o‘zaro ta’sirlarni boshqarish.
+- **Harakatni boshqarish**: ikkala padd uchun klaviatura boshqaruvini tashkil qilish.
+- **To‘qnashuvni aniqlash**: to‘p paddlarga yoki ekran chetlariga tegishini aniqlash.
+- **Hisob tizimi**: har bir o‘yinchi ochkolarini hisoblash uchun o‘zgaruvchi yaratish.
 
-## Detailed Plan
+## Batafsil Reja
 
-1. **Introduction (10-15 minutes)**
-   - Explain the basic idea of the project: a 2-player ping pong game where players try to score points by hitting the ball past the opponent’s paddle.
-   - Discuss the key concepts: sprite interactions, collision detection, and using multiple control schemes.
-   - Introduce the necessary blocks for **movement**, **collision detection**, and **scoring**.
+1. **Kirish (10-15 daqiqa)**
+   - Loyihaning asosiy maqsadini tushuntirish: ikki o‘yinchi o‘rtasida Ping Pong o‘yini, o‘yinchilar to‘pni raqibining paddidan o‘tkazib ochko olishga harakat qilishadi.
+   - Asosiy tushunchalarni muhokama qilish: spritelar o‘zaro ta’siri, to‘qnashuvni aniqlash, ko‘p boshqaruv tizimlari.
+   - Harakat, to‘qnashuv va hisoblash uchun kerakli bloklarni tanishtirish.
 
-2. **Step-by-Step Instructions**
-   - **Step 1**: Set up the backdrop and paddles:
-     - Create two **paddles** (one for each player) and position them on opposite sides of the stage.
-     - Set the initial position of the **ball** at the center of the stage.
-   - **Step 2**: Control the paddles:
-     - Use the `when key pressed` blocks for the first paddle (e.g., W and S keys for Player 1) and the second paddle (e.g., Up and Down arrow keys for Player 2).
-     - Use `change y by` blocks to move the paddles up and down based on the key press.
-   - **Step 3**: Ball movement and collision detection:
-     - Use the `glide` block to move the ball. Make sure the ball continuously bounces off the edges of the stage (top and bottom).
-     - Add collision detection using `if <touching [paddle]> then` blocks to make the ball bounce off the paddles.
-   - **Step 4**: Scoring:
-     - Create a **score** variable for both players.
-     - Set the score to increase when the ball passes one of the paddles (i.e., if the ball goes off the left or right edge of the stage).
-     - Display both players' scores on the screen using the **score variables**.
-   - **Step 5**: Restart the game:
-     - After a player scores a point, reset the ball to the center and allow the game to continue.
+2. **Bosqichma-bosqich ko‘rsatmalar**
 
-3. **Teacher’s Tips**
-   - Emphasize the **coordination** between both players and the ball. Ensure students understand how the paddles interact with the ball, and how the ball’s direction changes after a bounce.
-   - Focus on using **repeat** or **forever** loops to handle the continuous movement of the ball and paddles.
-   - Encourage students to **test and debug** their game frequently. For example, make sure the ball bounces correctly and that the paddles move smoothly without glitches.
-   - If students struggle with paddle movement, guide them through adjusting their control blocks for smoother movement.
+   - **1-bosqich**: Fon va paddlarni yaratish:
+     - Har bir o‘yinchi uchun ikkita **padd** yaratib, sahnaning qarama-qarshi tomonlariga joylashtiring.
+     - To‘pni sahnaning markaziga qo‘ying.
+   - **2-bosqich**: Paddlarni boshqarish:
+     - Birinchi padd uchun `when key pressed` bloklaridan foydalaning (masalan, 1-o‘yinchi uchun W va S tugmalari).
+     - Ikkinchi padd uchun esa yuqori va pastga o‘q tugmalari (Up va Down arrow keys).
+     - Tugma bosilganda `change y by` bloklari yordamida paddlarni yuqoriga yoki pastga harakatlantiring.
+   - **3-bosqich**: To‘pni harakatlantirish va to‘qnashuvni aniqlash:
+     - To‘pni `glide` bloki bilan harakatlantiring. To‘p doimiy ravishda sahna yuqori va past chegarasidan sakrashi kerak.
+     - `if <touching [padd]> then` bloklari yordamida to‘p paddlarga teganda sakrashini ta’minlang.
+   - **4-bosqich**: Hisobni qo‘shish:
+     - Har ikkala o‘yinchi uchun **hisob** o‘zgaruvchisini yarating.
+     - To‘p sahnaning chap yoki o‘ng chetidan chiqsa, raqib o‘yinchi hisobini oshiring.
+     - Har ikkala o‘yinchi hisobini ekranda ko‘rsating.
+   - **5-bosqich**: O‘yinni qayta boshlash:
+     - O‘yinchi ochko olgandan so‘ng, to‘pni markazga qaytaring va o‘yin davom etsin.
 
-4. **Troubleshooting Common Issues**
-   - **Issue**: The paddles move too fast or too slow.
-     - **Solution**: Adjust the `change y by` block values to control how fast the paddles move. Test different values to find a suitable speed.
-   - **Issue**: The ball gets stuck or doesn’t bounce off the paddles correctly.
-     - **Solution**: Double-check that the `if <touching [paddle]> then` block is correctly set up, and ensure the ball bounces off the paddles at the right angle.
-   - **Issue**: The score doesn’t reset when a point is scored.
-     - **Solution**: Make sure the score is set to reset after a point is scored, and that the ball’s position is reset to the center after each point.
+3. **O‘qituvchiga Maslahatlar**
 
-5. **Extension Ideas**
-   - Add a **sound effect** when the ball hits a paddle or when a point is scored.
-   - Create **different difficulty levels** by making the ball move faster as the game progresses.
-   - Implement a **timer** to limit the game time and declare a winner when the time runs out.
-   - Include **custom paddle designs** and backgrounds to make the game visually appealing.
-   - Allow for **computer-controlled players** as an option for single-player mode.
+- Ikkala o‘yinchi va to‘p o‘rtasidagi **muvofiqlik**ni ta’kidlang. Paddlarning to‘p bilan qanday o‘zaro ta’sir qilishi va to‘pning sakrash yo‘nalishini tushuntiring.
+- To‘p va paddlar harakatini uzluksiz boshqarish uchun **repeat** yoki **forever** sikllaridan foydalanishni ko‘rsatish.
+- O‘quvchilarni o‘z o‘yinlarini tez-tez **sinab ko‘rish va xatolarini tuzatishga** undang.
+- Agar paddlarning harakati bilan muammo bo‘lsa, boshqaruv bloklarini silliq harakat uchun sozlashga yordam bering.
 
-## Conclusion
+4. **Ko‘p uchraydigan muammolar**
 
-By the end of this project, students will have created a fun and interactive 2-player Ping Pong game, helping them understand how to manage multiple controls, detect collisions, and keep track of scores in a game. They will also gain experience in game design, sprite interaction, and debugging, which are essential skills in Scratch programming.
+- Muammo: Paddlar juda tez yoki sekin harakatlanmoqda.
+  - Yechim: `change y by` blokidagi qiymatlarni sozlang va turli qiymatlarni sinab ko‘ring.
+- Muammo: To‘p paddga to‘g‘ri sakramaydi yoki ushlanib qoladi.
+  - Yechim: `if <touching [padd]> then` blokining to‘g‘ri ishlashini tekshiring va to‘pning sakrash burchagini to‘g‘rilang.
+- Muammo: Ochko qo‘shilmayapti yoki hisob qayta tiklanmayapti.
+  - Yechim: Ochko olishdan keyin hisobni to‘g‘ri yangilash va to‘p markazga qaytishini ta’minlang.
+
+5. **Qo‘shimcha G‘oyalar**
+
+- To‘p paddga teganda yoki ochko olganda **ovoz effektlarini** qo‘shish.
+- O‘yinni qiyinlashtirish uchun to‘p tezligini o‘yinda oshirish orqali turli darajalar yaratish.
+- O‘yinni vaqt bilan cheklab, vaqt tugagach g‘olibni e’lon qilish uchun **taymer** qo‘shish.
+- Paddlarni va fonlarni o‘zgartirish uchun **maxsus dizaynlar** yaratish.
+- Bitta o‘yinchi uchun **kompyuter boshqaruvidagi o‘yinchi** variantini qo‘shish.
+
+## Xulosa
+
+Ushbu loyiha orqali o‘quvchilar qiziqarli va interaktiv 2-o‘yinchi uchun Ping Pong o‘yinini yaratadilar, bu ularga ko‘p boshqaruvni boshqarishni, to‘qnashuvni aniqlashni va hisobni yuritishni o‘rgatadi. Shuningdek, o‘yin dizayni, spritelar o‘zaro ta’siri va xatolarni tuzatish bo‘yicha amaliy ko‘nikmalar hosil qiladi.
 
 ---
 
-### **Note**: The **Ping Pong Game** helps students practice all the key concepts learned up to this point, including sprite control, collision detection, and scoring. It is also an excellent introduction to multi-player game logic, giving students the opportunity to create games with two interacting players.
+### **Eslatma**: **Ping Pong o‘yini** o‘quvchilarga sprite boshqaruvi, to‘qnashuv aniqlash va hisoblash kabi asosiy tushunchalarni mustahkamlashga yordam beradi. Bu ko‘p o‘yinchili o‘yin logikasiga kirish bo‘lib, ikki o‘yinchi o‘rtasidagi o‘zaro ta’sirlarni yaratishga imkon beradi.

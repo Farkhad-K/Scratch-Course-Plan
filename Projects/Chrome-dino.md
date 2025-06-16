@@ -1,52 +1,52 @@
-# Project : Chrome Dino 🦖
+# Loyiha: Chrome Dino 🦖
 
-## Project Overview
+## Loyiha Sharhi
 
-In this project, students will create a game similar to the Chrome Dino game, which appears when the user is offline in the Google Chrome browser. The project is a bit more advanced compared to the **Chick & Egg** project. It involves more dynamic interactions, like jumping over obstacles (cacti) and managing a game that increases in difficulty over time. This project can also serve as an alternative to the **Chick & Egg** project if preferred by the teacher.
+Ushbu loyihada o‘quvchilar Google Chrome brauzerining oflayn rejimida chiqadigan mashhur **Chrome Dino** o‘yiniga o‘xshash o‘yin yaratadilar. Bu loyiha **Chick & Egg** loyihasiga qaraganda biroz murakkabroq, chunki u ko‘proq dinamik o‘zaro ta’sirlarni, masalan, to‘siqlardan sakrab o‘tishni va vaqt o‘tishi bilan qiyinchilik darajasini oshirishni o‘z ichiga oladi. Bu loyiha o‘qituvchi xohishiga ko‘ra **Chick & Egg** loyihasining alternativi sifatida ham xizmat qilishi mumkin.
 
-## Key Concepts to Focus On
+## E’tibor Qaratiladigan Asosiy Tushunchalar
 
-- **Sprite Movement**: Guide students on making the dino sprite jump when a key is pressed.
-- **Collision Detection**: Teach students how to detect if the dino collides with obstacles like cacti or other objects.
-- **Score Tracking**: Introduce a score system to track how long the player survives or how many obstacles they avoid.
-- **Increasing Difficulty**: Show students how to increase the speed of obstacles as the game progresses to make it more challenging.
+- **Sprajt Harakati**: O‘quvchilarga tugma bosilganda dino sprajti sakrashi kerakligini o‘rgating.
+- **To‘qnashuvni Aniqlash**: Dino kaktuslar yoki boshqa ob’ektlarga urilganini qanday aniqlashni ko‘rsating.
+- **Ball Kuzatuvi**: O‘yinchi qancha vaqt yashagani yoki qancha to‘siqlardan o‘tganini hisoblaydigan ball tizimini joriy qiling.
+- **Qiyinchilik Darajasini Oshirish**: O‘yin davomida to‘siqlar tezligini oshirib, o‘yinni asta-sekin qiyinlashtirishni tushuntiring.
 
-## Detailed Plan
+## Batafsil Reja
 
-1. **Introduction (10-15 minutes)**
-   - Explain the purpose of the game: to control a dino character that jumps over cacti, similar to the offline Chrome Dino game.
-   - Introduce the Scratch interface and key blocks, such as `when key pressed` and `if touching [sprite]` for handling movement and collision detection.
+1. **Kirish (10–15 daqiqa)**
+   - O‘yinning maqsadini tushuntiring: dino obrazini boshqarish va kaktuslardan sakrab o‘tish.
+   - Scratch interfeysi va muhim bloklar (masalan, `when key pressed` va `if touching [sprite]`) bilan tanishtiring.
 
-2. **Step-by-Step Instructions**
-   - Step 1: Set up the dino sprite and create a simple background (desert or plain).
-   - Step 2: Program the dino to jump when the player presses a key (usually the spacebar).
-   - Step 3: Create obstacles (cacti) that move from right to left.
-   - Step 4: Add collision detection to end the game if the dino touches the cactus.
-   - Step 5: Implement a score system that tracks the player's progress based on the time survived or the number of obstacles avoided.
-   - Step 6: Gradually increase the speed of the cacti to make the game harder as the score increases.
+2. **Bosqichma-bosqich Yo‘riqnoma**
+   - 1-bosqich: Dino sprajtini qo‘shing va soddalashtirilgan fon yarating (masalan, cho‘l).
+   - 2-bosqich: O‘yinchi tugmani (odatda probel) bosganda dino sakrashini dasturlang.
+   - 3-bosqich: Kaktus to‘siqlarini yarating — ular o‘ngdan chapga harakatlanadi.
+   - 4-bosqich: Agar dino kaktusga tegsa, o‘yinni to‘xtatadigan to‘qnashuv aniqlash tizimini yarating.
+   - 5-bosqich: O‘yinchining qancha vaqt yashagani yoki qancha to‘siqdan o‘tgani asosida ball tizimini qo‘shing.
+   - 6-bosqich: Ball oshgan sari to‘siqlar tezligini oshiring — bu o‘yinni murakkablashtiradi.
 
-3. **Teacher’s Tips**
-   - Help students with setting up the controls and collision detection, as this may be tricky.
-   - Ensure that the game increases in difficulty gradually by adjusting the speed of obstacles based on the score or time.
-   - Encourage students to add sound effects for jumping and collisions for a more dynamic experience.
+3. **O‘qituvchiga Maslahatlar**
+   - Harakat va to‘qnashuv bloklarini sozlashda o‘quvchilarga yordam bering, bu qiyin bo‘lishi mumkin.
+   - O‘yin qiyinchiligi sekin-asta ortib borishini ta’minlash uchun to‘siqlar tezligini ball yoki vaqtga qarab sozlang.
+   - Sakrash va to‘qnashuvlar uchun tovush effektlarini qo‘shishni tavsiya eting — bu o‘yinni jonlantiradi.
 
-4. **Troubleshooting Common Issues**
-   - Issue: The dino jumps too high or too low.
-     - Solution: Adjust the "change y by" value in the jump script to make the dino's jump more realistic.
-   - Issue: Obstacles stop moving or don’t restart after a game over.
-     - Solution: Use a `clone` block to create new obstacles after the current ones finish their movement or hit the edge.
-   - Issue: The collision detection is not working properly.
-     - Solution: Double-check that the `if touching [obstacle]` block is correctly placed within the game loop.
+4. **Ko‘p Uchraydigan Muammolar va Yechimlar**
+   - Muammo: Dino juda baland yoki past sakraydi.  
+     - Yechim: Sakrash skriptidagi `change y by` qiymatini sozlab, tabiiy sakrashga erishing.
+   - Muammo: To‘siqlar harakatdan to‘xtaydi yoki o‘yin tugagach qayta boshlanmaydi.  
+     - Yechim: `clone` blokidan foydalanib yangi to‘siqlar yaratishni ko‘rsating.
+   - Muammo: To‘qnashuv aniqlamayapti.  
+     - Yechim: `if touching [obstacle]` bloki o‘yin tsiklida to‘g‘ri joylashganini tekshiring.
 
-5. **Extension Ideas**
-   - Allow students to add more obstacle types (e.g., birds flying across the screen).
-   - Add a "game over" screen that appears when the dino collides with an obstacle.
-   - Challenge students to improve the game's graphics or add a starting screen with instructions.
+5. **Qo‘shimcha G‘oyalar**
+   - O‘quvchilarga ekran bo‘ylab uchib o‘tuvchi qushlar kabi yangi to‘siqlar qo‘shishni topshiring.
+   - Dino to‘siqqa urilganda chiqadigan “Game Over” ekranini qo‘shing.
+   - O‘yin grafikalarini yaxshilash yoki o‘yin boshlanishida ko‘rsatmalar chiqadigan ekran qo‘shish vazifasini bering.
 
-## Conclusion
+## Xulosa
 
-By the end of this project, students will have created a fully functional game similar to the Chrome Dino game. This project will help them further understand the concepts of sprite movement, collision detection, score tracking, and creating interactive experiences in Scratch.
+Loyiha yakunida o‘quvchilar to‘liq ishlaydigan **Chrome Dino** o‘yiniga o‘xshash o‘yin yaratadilar. Bu loyiha ular uchun sprajt harakati, to‘qnashuvni aniqlash, ball tizimi va Scratch’da interaktiv o‘yin yaratish tushunchalarini yanada mustahkamlash imkonini beradi.
 
 ---
 
-### **Note**: This project could be used as a more advanced alternative to the **Chick & Egg** project.
+### **Eslatma**: Ushbu loyiha **Chick & Egg** loyihasining murakkabroq alternativi sifatida ishlatilishi mumkin.

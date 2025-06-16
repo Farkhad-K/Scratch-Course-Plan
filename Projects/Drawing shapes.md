@@ -1,32 +1,32 @@
-# Drawing Shapes Project 🟩, 🔼, 🔴
+# Shakllar Chizish Loyihasi 🟩, 🔼, 🔴
 
-## Project Overview
+## Loyiha Sharhi
 
-In the **Drawing Shapes** project, students will use the **Pen extension** in Scratch to draw various shapes like circles, squares, and triangles. They will create their own simple **custom code blocks** to draw these shapes, reinforcing concepts like **procedures**, **repetition**, and **coordination of blocks**. This project will serve as an introduction to creating and using custom blocks in Scratch while offering a fun opportunity to practice the **Pen extension**.
+**Shakllar chizish** loyihasida o‘quvchilar Scratch dasturidagi **Pen (Ruchka) kengaytmasi** yordamida turli shakllarni — masalan, aylana, kvadrat, uchburchak — chizishni o‘rganadilar. Ular ushbu shakllarni chizish uchun o‘zlarining oddiy **maxsus bloklarini** yaratadilar. Bu loyiha orqali o‘quvchilar **amallarni takrorlash**, **bloklarni muvofiqlashtirish**, hamda **funksiya (procedure)** tushunchalarini mustahkamlab olishadi. Loyihada o‘quvchilar Scratch’dagi **custom blocks** (maxsus bloklar) bilan ishlashni o‘rganishadi va **Pen kengaytmasi** bilan chizishni amaliy tarzda mashq qilishadi.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **Pen Extension**: Introduce the **Pen extension** to students, allowing them to draw on the screen using code blocks.
-- **Custom Code Blocks**: Teach students how to create their own custom blocks for drawing specific shapes. This helps to reinforce **modular programming** and **reusable code**.
-- **Repetition and Loops**: Use loops to repeat actions needed to draw shapes (e.g., turning the sprite to complete a square or a triangle).
-- **Procedures**: Understand how to group code into custom blocks, making it easier to reuse and organize.
+- **Pen kengaytmasi**: O‘quvchilarga **Pen extension** ni tanishtiring — bu kengaytma yordamida kodlar orqali sahnada chizmalar hosil qilish mumkin.
+- **Maxsus kod bloklari**: Belgilangan shakllarni chizish uchun o‘z kod bloklarini (custom blocks) yaratishni o‘rgating. Bu **modulli dasturlash** va **qayta foydalaniladigan kod** tushunchalarini mustahkamlaydi.
+- **Takrorlash va sikllar**: Shakllarni chizish uchun kerakli harakatlarni sikl (loop) orqali bir necha marta takrorlash (masalan, kvadrat yoki uchburchak hosil qilish uchun burilishlar).
+- **Funksiyalar (procedures)**: Kodlarni maxsus bloklarga guruhlab, ularni tartibli va qayta ishlatish mumkin bo‘lgan holatga keltirishni tushuntiring.
 
-## Detailed Plan
+## Batafsil Reja
 
-### 1. Introduction (10-15 minutes)
-- **Introduction to Pen Extension**: Explain how the **Pen extension** allows sprites to draw on the stage by using blocks like `pen down`, `pen up`, `clear`, and `set pen color`.
-- **Custom Blocks**: Introduce the concept of **custom blocks** by explaining how students can create reusable code blocks for drawing shapes.
-- **Shapes Overview**: Discuss basic shapes (e.g., square, triangle, circle) and how they can be drawn using loops and angles.
+### 1. Kirish (10–15 daqiqa)
 
-### 2. Step-by-Step Instructions
+- **Pen kengaytmasi bilan tanishuv**: Pen kengaytmasi yordamida sahnada `pen down`, `pen up`, `clear` va `set pen color` kabi bloklar orqali rasm chizish mumkinligini tushuntiring.
+- **Maxsus bloklar**: **Custom blocks** tushunchasini kiriting. O‘quvchilar belgilangan harakatlar uchun o‘z maxsus bloklarini yaratib, kodni qayta ishlatish imkoniyatiga ega bo‘lishadi.
+- **Shakllar haqida**: Asosiy shakllar — kvadrat, uchburchak, aylana — va ularni chizishda ishlatiladigan burchaklar va takroriy harakatlar haqida muhokama qiling.
 
-#### Step 1: Set up the Pen Extension
-- **Add the Pen Extension**: Go to the **Extensions** tab and select **Pen**.
-- **Pen Setup**: Use `clear`, `pen down`, and `set pen color to [color]` blocks to set up the drawing environment.
+### 2. Bosqichma-bosqich Yo‘riqnoma
 
-#### Step 2: Draw a Square
-- **Custom Block for Square**: Students will create a custom block called `draw square` which will be used to draw a square. To draw a square:
-  - Move the sprite a certain number of steps forward.
-  - Turn 90 degrees to make the next side of the square.
-  - Repeat this process 4 times to complete the square.
+#### 1-bosqich: Pen kengaytmasini o‘rnatish
+- **Pen Extension qo‘shish**: Scratch oynasida **Extensions** (Kengaytmalar) bo‘limiga o‘ting va **Pen** kengaytmasini tanlang.
+- **Pen sozlash**: Ruchka bilan ishlashni boshlash uchun `clear`, `pen down`, `set pen color to [rang]` bloklaridan foydalaning.
 
+#### 2-bosqich: Kvadrat chizish
+- **Kvadrat uchun maxsus blok**: O‘quvchilar `draw square` (kvadrat chizish) nomli maxsus blok yaratadilar. Kvadrat chizish uchun quyidagi amallar bajariladi:
+  - Sprajtni ma’lum miqdorda oldinga harakatlantirish.
+  - 90° burchakda burilish.
+  - Ushbu jarayonni 4 marta takrorlash orqali kvadrat chizish yakunlanadi.

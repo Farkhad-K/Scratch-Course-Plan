@@ -1,81 +1,81 @@
-# War Game ⚔️🎮
+# War game ⚔️🎮
 
-## Project Overview
+## Loyihaning Tavsifi
 
-In this project, students will create a **shooter war game** where the player controls a character or vehicle that must battle against waves of enemies. The goal of the game is to shoot down enemy sprites while avoiding being hit by them. This project will introduce concepts like **sprite interaction**, **randomization**, **collision detection**, and **game flow management**.
+Ushbu loyihada talabalar **otishma urush o‘yini** yaratadilar, bunda o‘yinchi belgi yoki transport vositasini boshqarib, dushman to‘lqinlariga qarshi kurashadi. O‘yinning maqsadi – dushman sprite’larini otib tushirish va ulardan zararlanishdan qochishdir. Loyihada **sprite’lar o‘zaro ta’siri**, **tasodifiylik**, **to‘qnashuvni aniqlash** va **o‘yin jarayonini boshqarish** tushunchalari joriy etiladi.
 
-This is a slightly more complex project that will provide students with a deeper understanding of **game mechanics**, especially when it comes to using **if-else** statements for decision-making and **pick random** blocks to generate unpredictable events.
+Bu loyiha biroz murakkabroq bo‘lib, talabalar uchun **o‘yin mexanikasi**ni chuqurroq tushunishni ta’minlaydi, ayniqsa **if-else** bayonotlari yordamida qaror qabul qilish va **pick random** bloklari yordamida kutilmagan hodisalarni yaratish bo‘yicha.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **If-Else Statements**: Teach students how to use **if-else** blocks for decision-making, such as determining if a bullet hits an enemy, or if the player's health reaches zero.
-- **Pick Random**: Guide students to use the **pick random** block for generating random behaviors like enemy movements, spawning rates, or attack patterns.
-- **Collision Detection**: Explain how to check if a bullet hits an enemy and what actions should occur, such as the enemy disappearing and the player gaining points.
-- **Health System**: Help students implement a health system for the player character, where the player loses health when hit by an enemy and can gain health back through power-ups.
-- **Score System**: Implement a score system that tracks the number of enemies the player has destroyed.
+- **If-Else Bayonotlari**: Talabalarga qaror qabul qilish uchun **if-else** bloklaridan qanday foydalanishni o‘rgatish (masalan, o‘q dushmanga tegsa yoki o‘yinchining hayoti nolga yetganda).
+- **Pick Random**: Dushmanlarning harakatlari, paydo bo‘lish va hujum uslublarini tasodifiylashtirish uchun **pick random** blokidan foydalanishni ko‘rsatish.
+- **To‘qnashuvni Aniqlash**: O‘q dushmanga tegsa, nima bo‘lishini aniqlash, masalan, dushman yo‘qolishi va o‘yinchining ball olishini ta’minlash.
+- **Hayot Tizimi**: O‘yinchining hayotini boshqarish; dushman tegsa hayot kamayadi, power-up orqali hayot tiklanadi.
+- **Ball Tizimi**: O‘yinchi nechta dushmanni yo‘q qilganini hisoblash.
 
-## Detailed Plan
+## Batafsil Reja
 
-### 1. Introduction (15-20 minutes)
-- Introduce the idea of a **war game** where the player controls a character or vehicle to battle against enemies.
-- Discuss the concept of **if-else** statements for handling various game events, like checking if the player has collided with an enemy.
-- Explain how **pick random** can be used for random enemy movements, enemy spawns, and generating unpredictable events in the game.
+### 1. Kirish (15-20 daqiqa)
+- **Urush o‘yini** g‘oyasini tanishtirish: o‘yinchi belgini yoki transport vositasini boshqaradi, dushmanlarga qarshi kurashadi.
+- Turli o‘yin hodisalarini boshqarishda **if-else** bayonotlarining ahamiyatini tushuntirish.
+- Dushmanlarning tasodifiy harakatlari va paydo bo‘lishini yaratishda **pick random** blokidan foydalanishni tushuntirish.
 
-### 2. Step-by-Step Instructions
+### 2. Qadam-baqadam ko‘rsatmalar
 
-#### Step 1: Set up the Player and Enemy Sprites
-- **Player Sprite**: Create a sprite for the player (e.g., a tank, spaceship, or soldier) that the player will control.
-- **Enemy Sprite**: Create multiple enemy sprites that will move across the screen and try to collide with the player.
+#### Qadam 1: O‘yinchi va dushman sprite’larini yaratish
+- **O‘yinchi sprite**: o‘yinchi boshqaradigan tank, kosmik kemasi yoki askar sprite’ini yaratish.
+- **Dushman sprite**: ekranda harakatlanadigan va o‘yinchiga tegishga harakat qiladigan bir nechta dushman sprite’larini yaratish.
 
-#### Step 2: Control the Player Sprite
-- Use the `when key pressed` blocks to allow the player to move the character or vehicle up, down, left, or right.
-- Use `when space key pressed` to shoot bullets or other projectiles.
+#### Qadam 2: O‘yinchini boshqarish
+- `when key pressed` bloklari yordamida o‘yinchini yuqoriga, pastga, chapga va o‘ngga harakatlantirish.
+- `when space key pressed` bloklari yordamida o‘q otish.
 
-#### Step 3: Create the Bullet Sprite
-- Design a simple bullet sprite and make it move upwards (or forward, depending on the player's character) when the player presses the spacebar.
-- Use **if-else** blocks to detect when the bullet hits an enemy sprite.
-  - If the bullet hits the enemy, the enemy should disappear and the score should increase.
+#### Qadam 3: O‘q sprite’ini yaratish
+- Oddiy o‘q sprite’ini yaratish va o‘yinchi space tugmasini bosganda o‘qni yuqoriga (yoki belgi yo‘nalishida) harakatlantirish.
+- **If-else** bloklari yordamida o‘q dushmanga tegishini aniqlash.
+  - Agar o‘q dushmanga tegsa, dushman yo‘qolishi va ball oshishi kerak.
 
-#### Step 4: Use the Pick Random Block for Enemy Behavior
-- Use the `pick random` block to make the enemies move in random directions, spawn at random intervals, or randomly choose attack patterns (such as shooting back at the player).
-- The `pick random` block can also be used to randomly select the speed of enemy movements or to vary the number of enemies that appear on the screen.
+#### Qadam 4: Dushmanlarning tasodifiy harakatini yaratish
+- `pick random` blokini ishlatib, dushmanlar tasodifiy yo‘nalishda harakatlanishi, tasodifiy vaqt oralig‘ida paydo bo‘lishi yoki tasodifiy hujum uslubini tanlashi.
+- Dushmanlarning harakat tezligi yoki sonini ham `pick random` orqali tasodifiylashtirish.
 
-#### Step 5: Implement the Score and Health System
-- **Score**: Create a score variable to track how many enemies the player has destroyed. When an enemy is hit, increase the score.
-- **Health**: Create a health variable for the player. If the player is hit by an enemy, decrease the health. If health reaches zero, the game ends.
+#### Qadam 5: Ball va hayot tizimini yaratish
+- **Ball**: o‘yinchi nechta dushmanni yo‘q qilganini hisoblovchi o‘zgaruvchi yaratish va dushman o‘ldirilganda ballni oshirish.
+- **Hayot**: o‘yinchining hayot o‘zgaruvchisini yaratish. Dushman tegsa, hayotni kamaytirish. Hayot nolga yetganda o‘yin tugaydi.
 
-#### Step 6: Add Game Over and Win Conditions
-- When the player’s health reaches zero, display a **Game Over** screen and show the final score.
-- You can also create a **win condition** where the player wins after defeating a certain number of enemies or completing a mission.
+#### Qadam 6: O‘yin tugashi va g‘alaba shartlarini qo‘shish
+- O‘yinchining hayoti nolga yetganda **Game Over** ekrani va yakuniy ballni ko‘rsatish.
+- Belgilangan dushmanlar sonini yo‘q qilganda yoki missiyani bajarganda g‘alaba shartini yaratish.
 
-### 3. Teacher’s Tips
-- Emphasize the use of **if-else** blocks for decision-making in games. For example, checking if the player's bullet touches an enemy or if the player's health reaches zero.
-- Ensure students understand how to use the **pick random** block for generating random behaviors and creating an unpredictable gaming experience.
-- Encourage students to test different combinations of random values and behaviors to see how it affects gameplay.
+### 3. O‘qituvchi uchun maslahatlar
+- O‘yinda qaror qabul qilish uchun **if-else** bloklarining ahamiyatini ta’kidlash (masalan, o‘q dushmanga tegadimi yoki hayot nolga yetdimi).
+- Tasodifiy harakatlar va hodisalar yaratishda **pick random** blokidan foydalanishni tushuntirish.
+- Turli tasodifiy qiymatlarni sinab ko‘rishni rag‘batlantirish.
 
-### 4. Troubleshooting Common Issues
+### 4. Ko‘p uchraydigan muammolar va yechimlar
 
-- **Issue**: The bullets don’t disappear when they hit an enemy.
-  - **Solution**: Ensure the bullet sprite includes a `hide` block after the collision and the `broadcast [Enemy Hit]` block to notify the enemy to disappear.
+- **Muammo**: O‘qlar dushmanga tegganda yo‘qolmaydi.
+  - **Yechim**: O‘q sprite’ida to‘qnashuvdan keyin `hide` va `broadcast [Enemy Hit]` bloklari ishlatilganligini tekshirish.
   
-- **Issue**: Enemies spawn too quickly or too slowly.
-  - **Solution**: Adjust the random range in the `pick random` block that controls the spawning rate or movement speed of the enemies. You can also introduce a delay between spawns using the `wait` block.
+- **Muammo**: Dushmanlar juda tez yoki juda sekin paydo bo‘ladi.
+  - **Yechim**: `pick random` blokidagi diapazonni o‘zgartirish yoki paydo bo‘lish oralig‘ini `wait` bloki yordamida boshqarish.
   
-- **Issue**: The player doesn’t lose health when hit by an enemy.
-  - **Solution**: Double-check the collision detection logic and ensure that the `change health by -1` block is triggered when the player is hit.
+- **Muammo**: O‘yinchi dushman teganda hayot yo‘qotmayapti.
+  - **Yechim**: To‘qnashuvni aniqlash mantiqini qayta tekshirish va `change health by -1` bloki ishlashini ta’minlash.
 
-### 5. Extension Ideas
+### 5. Qo‘shimcha g‘oyalar
 
-- Add **power-ups** that can heal the player or temporarily increase their damage or speed.
-- Introduce **boss enemies** that require multiple hits to destroy, providing more challenging gameplay.
-- Add **sound effects** for actions like shooting, hitting an enemy, and the game-over sequence.
-- Include a **level system** where each level has more enemies, faster speeds, or different attack patterns.
-- Create **multiple backgrounds** to simulate different environments for each level, such as a battlefield, space, or jungle.
+- O‘yinchini davolaydigan yoki vaqtinchalik kuchaytiradigan **power-up** lar qo‘shish.
+- Ko‘p urinishlarni talab qiladigan **bosh dushmanlar** yaratish.
+- Otish, dushmanga tegish va o‘yin tugashi uchun **tovush effektlari** qo‘shish.
+- Har darajada dushmanlar soni, tezligi yoki hujum uslublari o‘zgaradigan **darajalar tizimi** yaratish.
+- Har daraja uchun turli muhitlarni ifodalovchi **orqa fonlar** yaratish (masalan, jang maydoni, kosmos yoki o‘rmon).
 
-## Conclusion
+## Xulosa
 
-By the end of this project, students will have built a **shooter war game** where they can control a character to fight against enemies. They will have learned how to use **if-else** statements for decision-making, and how to implement **random events** to keep the game dynamic and unpredictable. Additionally, they will understand how to handle **collision detection**, implement a **score system**, and create game-over conditions. This project helps students build foundational skills in **game design**, **event handling**, and **randomization**.
+Ushbu loyiha oxirida talabalar dushmanlarga qarshi kurashadigan **otishma urush o‘yini** yaratadilar. Ular **if-else** bayonotlarini qaror qabul qilish uchun, **tasodifiy hodisalarni** o‘yinga kiritish uchun, **to‘qnashuvni aniqlash**, **ball tizimi** va o‘yin tugashi shartlarini yaratishni o‘rganadilar. Bu loyiha talabalarni **o‘yin dizayni**, **hodisalarni boshqarish** va **tasodifiylik** bo‘yicha mustahkam ko‘nikmalar bilan ta’minlaydi.
 
 ---
 
-### **Note**: The **War Game** introduces more complex logic and randomization, preparing students for more advanced projects involving multiple variables, decision-making, and game flow management.
+### **Eslatma**: **Urush o‘yini** murakkabroq mantiq va tasodifiylikni joriy etib, talabalarni ko‘p o‘zgaruvchilar, qaror qabul qilish va o‘yin jarayonini boshqarishga tayyorlaydi.

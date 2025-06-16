@@ -1,49 +1,49 @@
-# Project 19: Canoe 🛶
+# Loyiha: Canoe 🛶
 
-## Project Overview
+## Loyiha Sharhi
 
-In this project, students will create a canoe-themed game, similar to the Racing Car project. The teacher will provide the necessary sprites (like the canoe and water), but students are expected to complete the project on their own. This will give students the opportunity to practice their creativity and problem-solving skills while applying what they've learned so far.
+Ushbu loyihada o‘quvchilar “Poyga mashinasi” loyihasiga o‘xshash kano mavzusidagi o‘yin yaratadilar. O‘qituvchi kerakli sprajtlar (masalan, kano va suv)ni taqdim etadi, ammo o‘quvchilar loyihani mustaqil yakunlashlari kutiladi. Bu ularga shu kungacha o‘rgangan bilimlarini qo‘llash, ijodkorlik va muammo yechish ko‘nikmalarini rivojlantirish imkonini beradi.
 
-## Key Concepts to Focus On
+## E’tibor Qaratiladigan Asosiy Tushunchalar
 
-- **Sprite Movement**: Guide students in animating the canoe using movement blocks.
-- **Backdrop Setup**: Help students create a realistic water or river backdrop for the canoe to float on.
-- **Collision Detection**: Teach students how to detect if the canoe hits any obstacles or moves off-screen.
-- **Scoring & Timer**: Introduce a timer to measure how long it takes to reach a destination, or add a score to track performance.
+- **Sprajt harakati**: O‘quvchilarga harakat bloklaridan foydalanib kanoni harakatlantirishni o‘rgating.
+- **Fon yaratish**: Kanoning suzishi uchun suv yoki daryo fonini yaratishga yordam bering.
+- **To‘qnashuvni aniqlash**: Kano to‘siqlarga urilganda yoki ekran chetidan chiqib ketsa aniqlashni ko‘rsating.
+- **Ball va taymer**: O‘yin davomiyligini o‘lchash uchun taymer qo‘shish yoki o‘yinchi faoliyatini baholash uchun ball tizimini joriy qiling.
 
-## Detailed Plan
+## Batafsil Reja
 
-1. **Introduction (10-15 minutes)**
-   - Explain the goal of the project: to create a game where a canoe moves across water while avoiding obstacles.
-   - Introduce the basic interface of Scratch and show where to find the movement and control blocks.
+1. **Kirish (10–15 daqiqa)**
+   - Loyiha maqsadini tushuntiring: suvda harakatlanadigan va to‘siqlardan qochadigan kano o‘yini yaratish.
+   - Scratch interfeysini tanishtiring va harakat hamda boshqaruv bloklari qayerda joylashganini ko‘rsating.
 
-2. **Step-by-Step Instructions**
-   - Step 1: Set up the backdrop (e.g., water, river).
-   - Step 2: Add the canoe sprite and other objects that the students will move or interact with.
-   - Step 3: Use the `when key pressed` or `when flag clicked` blocks to control the canoe’s movement.
-   - Step 4: Implement collision detection so the canoe stops or changes direction when it hits an obstacle (like a rock or log).
-   - Step 5: Add a scoring system or a timer to make the game more engaging.
+2. **Bosqichma-bosqich Yo‘riqnoma**
+   - 1-bosqich: Fonni sozlang (masalan, suv, daryo).
+   - 2-bosqich: Kano sprajtini va boshqa ob’ektlarni qo‘shing (ular bilan o‘quvchilar o‘zaro harakat qilishadi).
+   - 3-bosqich: `when key pressed` yoki `when flag clicked` bloklaridan foydalanib kanoni boshqaring.
+   - 4-bosqich: To‘qnashuvni aniqlashni qo‘shing — kano to‘siqqa (tosh yoki g‘o‘la) urilganda to‘xtasin yoki yo‘nalishini o‘zgartsin.
+   - 5-bosqich: O‘yinga ball tizimi yoki taymer qo‘shing — bu o‘yinni yanada qiziqarli qiladi.
 
-3. **Teacher’s Tips**
-   - Encourage students to focus on movement first before adding obstacles or scoring.
-   - Be sure to show them how to add interactivity to the game by responding to key presses or mouse clicks.
-   - Emphasize creativity in how the water scene is animated and how obstacles are created.
+3. **O‘qituvchiga Maslahatlar**
+   - O‘quvchilarga avvalo harakat mexanizmini sozlashni, keyin esa to‘siqlar va ball tizimini qo‘shishni tavsiya eting.
+   - Klaviatura tugmalari yoki sichqoncha bosilishiga qanday javob berishni ko‘rsatib, o‘yinga interaktivlik qo‘shing.
+   - Suv manzarasini bezash va to‘siqlarni yaratishda ijodkorlikni rag‘batlantiring.
 
-4. **Troubleshooting Common Issues**
-   - Issue: The canoe moves too fast or too slow.
-     - Solution: Adjust the number of steps in the movement block or add `wait` blocks to control the speed.
-   - Issue: The canoe moves off the screen.
-     - Solution: Show how to use `if on edge, bounce` or restrict movement within the game boundaries.
+4. **Ko‘p Uchraydigan Muammolar va Yechimlar**
+   - Muammo: Kano juda tez yoki juda sekin harakatlanadi.  
+     - Yechim: Harakat blokidagi qadamlar sonini sozlang yoki `wait` bloklaridan foydalanib tezlikni boshqaring.
+   - Muammo: Kano ekran tashqarisiga chiqib ketadi.  
+     - Yechim: `if on edge, bounce` blokidan foydalaning yoki harakatni ekran chegarasida cheklashni ko‘rsating.
 
-5. **Extension Ideas**
-   - Challenge students to add more obstacles (e.g., rocks, logs) and make the game harder as time progresses.
-   - Add a "start screen" or "game over" screen that appears when the player finishes or loses the game.
-   - Allow students to create levels or add power-ups that help the canoe move faster.
+5. **Qo‘shimcha G‘oyalar**
+   - O‘quvchilarga vaqt o‘tishi bilan murakkablashib boradigan yangi to‘siqlar (masalan, toshlar, g‘o‘llar) qo‘shishni topshiring.
+   - O‘yin boshlanishi yoki yutqazilgan paytda chiqadigan “start screen” yoki “game over” ekranini qo‘shing.
+   - Kano tezroq harakatlanishi uchun “quvvat to‘plovchi” elementlar va yangi bosqichlar (levels) qo‘shish imkonini bering.
 
-## Conclusion
+## Xulosa
 
-By the end of this project, students will have created a fun and interactive canoe game, where they will apply their knowledge of sprite movement, collision detection, and scoring.
+Loyiha yakuniga kelib, o‘quvchilar sprajt harakati, to‘qnashuvni aniqlash va ball tizimi haqida olgan bilimlarini amalda qo‘llagan holda, qiziqarli va interaktiv kano o‘yinini yaratadilar.
 
 ---
 
-### **Note**: If students are unable to complete the project during class, this will be assigned as homework.
+### **Eslatma**: Agar o‘quvchilar loyihani dars davomida tugatolmasa, bu uyga vazifa sifatida beriladi.

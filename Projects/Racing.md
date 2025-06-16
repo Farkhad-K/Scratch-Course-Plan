@@ -1,79 +1,79 @@
-# Racing Game 🏎️🏁
+# Poyga O'yini 🏎️🏁
 
-## Project Overview
+## Loyihaning Tavsifi
 
-In this project, students will create a **Racing Game** where they design all the sprites (cars, track, obstacles) and backdrops themselves. The player will control a race car that must navigate through a series of tracks, avoiding obstacles and trying to complete laps within a time limit. As the player progresses, the game will introduce **leveling**, where each new level is more difficult than the last.
+Ushbu loyihada talabalar o'zlari barcha sprite’larni (mashinalar, yo'l, to'siqlar) va fon rasmlarini yaratadilar. O'yinchi poyga mashinasini boshqarib, bir nechta yo'llardan o'tadi, to'siqlardan qochadi va belgilangan vaqt ichida poygani yakunlashga harakat qiladi. O'yinchi oldinga siljigan sari o'yinda **darajalar** paydo bo'ladi, har bir yangi daraja oldingisidan qiyinroq bo'ladi.
 
-This project will allow students to demonstrate their creativity and coding skills, while also practicing concepts such as **sprite design**, **leveling**, **collision detection**, and **game flow management**.
+Ushbu loyiha talabalar ijodkorligi va dasturlash ko'nikmalarini namoyish etish imkonini beradi, shuningdek, **sprite yaratish**, **darajalarni oshirish**, **to'qnashuvni aniqlash**, va **o'yin oqimini boshqarish** kabi tushunchalarni amaliyotda qo'llashga yordam beradi.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **Sprite Creation**: Students will create their own **race car sprite**, **track sprite**, and any **obstacles** or **power-ups** that appear in the game.
-- **Leveling**: The game will increase in difficulty with each level by making the track harder, increasing the speed of the car or obstacles, and limiting the time for the race.
-- **Movement**: Students will use **arrow keys** or **tilt controls** to move their race car and avoid obstacles.
-- **Collision Detection**: The car must avoid obstacles on the track, and if it hits an obstacle, the game ends or the player loses time.
-- **Score System**: A score will track how fast the player completes each level and how many levels they have passed.
+- **Sprite yaratish**: Talabalar o'zlari uchun **poyga mashinasi sprite’ini**, **yo'l sprite’ini**, va o'yinda paydo bo'ladigan **to'siqlar** yoki **quvvatlar**ni yaratadilar.
+- **Darajalarni oshirish**: Har bir darajada o'yin qiyinlashadi: yo'l murakkablashadi, mashina yoki to'siqlar tezlashadi, poyga uchun berilgan vaqt qisqaradi.
+- **Harakat**: Talabalar poyga mashinasini **strelka tugmalari** yoki **tilt boshqaruvi** yordamida harakatlantiradilar.
+- **To'qnashuvni aniqlash**: Mashina yo'ldagi to'siqlardan qochishi kerak, to'qnashsa o'yin tugaydi yoki vaqt kamayadi.
+- **Ball tizimi**: Ball o'yinchi har bir darajani qancha tez tugatganiga va necha darajadan o'tganiga qarab hisoblanadi.
 
-## Detailed Plan
+## Batafsil Reja
 
-### 1. Introduction (15-20 minutes)
-- Explain the purpose of the game: To control a race car, avoid obstacles, and finish each race within the set time.
-- Discuss how students will **design their own sprites** and **create the backdrop** for each level of the game.
-- Introduce the concept of **leveling**, where the game will increase in difficulty after each successful race.
+### 1. Kirish (15-20 daqiqa)
+- O'yinning maqsadini tushuntiring: Poyga mashinasini boshqarish, to'siqlardan qochish va har bir poygani belgilangan vaqtda yakunlash.
+- Talabalar o'zlari sprite’larni yaratishlari va har bir daraja uchun fon rasmini chizishlari haqida gapiring.
+- **Darajalarni oshirish** tushunchasini tanishtiring — har bir muvaffaqiyatli poygadan so'ng o'yin qiyinlashadi.
 
-### 2. Step-by-Step Instructions
+### 2. Qadam-baqadam Ko'rsatmalar
 
-#### Step 1: Set Up the Race Car Sprite
-- **Create the Race Car Sprite**: The students will design their own race car using the Scratch drawing tools or import an image. It will be the main sprite controlled by the player.
-- **Control the Race Car**: Use the `when key pressed` blocks to allow the car to move up, down, left, and right using the arrow keys. If using tilt controls, this can be done using **sensor blocks** or custom controls.
+#### Qadam 1: Poyga mashinasi sprite’ini yaratish
+- Talabalar Scratch chizish vositalari yordamida yoki rasm import qilib, o'z poyga mashinalarini yaratadilar.
+- `when key pressed` bloklari orqali mashinani yuqoriga, pastga, chapga, o'ngga harakatlantirish uchun kod yoziladi. Tilt boshqaruvi uchun sensor bloklari ishlatilishi mumkin.
+
+#### Qadam 2: Yo'l va to'siqlarni yaratish
+- Talabalar poyga uchun **yo'l sprite’ini** yoki bir nechta yo'l sprite’larini yaratadilar, unda boshlanish chizig'i, tugash chizig'i va burilishlar bo'ladi.
+- To'siqlar (masalan, konuslar, toshlar yoki boshqa mashinalar) sprite’lari chiziladi va yo'lda joylashtiriladi.
+
+#### Qadam 3: Darajalarni oshirish va qiyinchiliklarni ko'paytirish
+- Yo'l murakkablashadi (yaqin burilishlar, ko'proq to'siqlar, tor yo'llar).
+- Mashinaning tezligi yoki to'siqlarning harakat tezligi oshadi.
+- Har bir daraja uchun vaqt cheklovi qo'yiladi. Vaqt tugasa o'yin tugaydi.
+- Har bir darajadan so'ng `level` o'zgaruvchisi oshiriladi va o'yin qiyinlashadi.
+
+#### Qadam 4: To'qnashuvni aniqlashni amalga oshirish
+- `if <touching [to'siq]>` bloklari yordamida mashina to'siqqa teganda o'yin tugashi yoki vaqt/ball kamayishi kodlanadi.
+- Yo'ldan chiqmaslik uchun chegara tekshiruvi — agar mashina chegara tashqarisiga chiqsa, o'yin tugaydi yoki qayta boshlanadi.
+
+#### Qadam 5: Ball tizimini yaratish
+- `score` o'zgaruvchisi yaratilib, o'yinchi natijasi qayd etiladi.
+- Darajani tugatganda vaqt va daraja asosida ball oshiriladi.
+
+#### Qadam 6: Taymer va o'yinni tugatish shartlari
+- Har bir daraja uchun taymer qo'shiladi, ekranda ko'rsatiladi.
+- Vaqt tugaganda **Game Over** ekrani chiqadi va yakuniy ball ko'rsatiladi.
+
+### 3. O'qituvchi uchun maslahatlar
+- Talabalarni yo'l dizayni va to'siqlar joylashtirishda ijodkor bo'lishga undang.
+- To'qnashuvni aniqlash tizimi o'yinni qiziqarli va qiyin qilishda muhim.
+- Darajalarni oshirish qiyinchilik darajasini tabiiy ravishda oshirishga yordam beradi — tezlik oshishi, ko'proq to'siq, yo'l o'zgarishi.
+
+### 4. Ko'p uchraydigan muammolarni hal qilish
+
+- **Muammo**: Mashina juda tez yoki sekin harakatlanmoqda.
+  - **Yechim**: Harakat kodidagi qiymatlarni (`change x by`, `change y by`) o'zgartiring yoki vaqt bilan tezlik oshirishni qo'shing.
   
-#### Step 2: Design the Track and Obstacles
-- **Design the Track**: The students will create a **track sprite** or multiple track sprites that form a path for the car to follow. This can include a **start line**, **finish line**, and turns or curves.
-- **Add Obstacles**: Design obstacle sprites (e.g., cones, rocks, or other cars) that will appear on the track. The player must avoid these obstacles as they race.
+- **Muammo**: To'siqlar noto'g'ri harakatlanmoqda yoki klonlashda xato bor.
+  - **Yechim**: To'siqlarning harakat yo'nalishi va tezligini tekshiring, `glide` yoki `move steps` bloklarini qo'llang.
 
-#### Step 3: Add Leveling and Increasing Difficulty
-- **Track Difficulty**: As the player progresses, the track can change to become harder. For example, the track might include more **sharp turns**, **obstacles**, or **narrow paths** in later levels.
-- **Car Speed**: As the player advances, the race car might increase in speed or the obstacles could move faster to make the game harder.
-- **Time Limit**: Introduce a **time limit** for each level. If the player finishes the track within the time, they proceed to the next level. If they run out of time, they lose the game.
-- **Level Progression**: After completing a level, the player is automatically moved to the next level, where the difficulty increases. Use a **level variable** to track the current level.
+- **Muammo**: Taymer har darajadan keyin qayta boshlanmayapti.
+  - **Yechim**: Har yangi daraja boshida taymerni to'g'ri qiymatga tiklang.
 
-#### Step 4: Implement Collision Detection
-- **Collision with Obstacles**: Use the `if <touching [obstacle]>` block to detect when the car hits an obstacle. If this happens, either stop the game or reduce the player's time or score.
-- **Collision with Track Boundaries**: Ensure the player can't go off the track by using boundary checks with the `x` and `y` positions. If the car crosses the boundary, the game can end or restart.
+### 5. Qo'shimcha g'oyalar
 
-#### Step 5: Add a Score System
-- **Score**: Create a **score variable** to track the player’s performance. This can be based on how quickly they finish each race or how many levels they pass.
-- **Level Completion**: When the player finishes a level, increase the score based on the time taken and the level reached.
+- **Quvvatlar**: Mashinaning tezligini oshiruvchi yoki himoya qiluvchi quvvatlar qo'shing.
+- **Bir nechta yo'llar**: Har bir daraja uchun turli yo'l dizaynlari va fonlari yarating.
+- **Reyting jadvali**: O'yinchi eng yuqori ballini saqlovchi va ko'rsatadigan leaderboard yarating.
+- **Ko'p o'yinchi rejimi**: Ikkinchi o'yinchiga boshqariladigan mashina qo'shing, ular bir-biriga qarshi poyga qilishi mumkin.
 
-#### Step 6: Set Up a Timer and Game Over Conditions
-- **Timer**: Use a **timer** to give the player a limited amount of time to complete each level. Display the timer on the screen.
-- **Game Over**: If the player’s time runs out, display a **Game Over** screen and show the final score.
+## Xulosa
 
-### 3. Teacher’s Tips
-- Encourage students to be **creative** with their track designs and obstacle placements. The difficulty should ramp up naturally as the player progresses.
-- Remind students that **collision detection** is key to making the game challenging. Obstacles should be spaced out in a way that is challenging but not impossible.
-- **Leveling**: Help students think about how they want the game to evolve as the player moves to higher levels. They can increase the speed, add more obstacles, or change the track layout.
-
-### 4. Troubleshooting Common Issues
-
-- **Issue**: The car moves too quickly or too slowly.
-  - **Solution**: Adjust the speed by changing the values in the movement code. You can add acceleration over time or adjust the `change x by` or `change y by` values.
-  
-- **Issue**: Obstacles don’t behave as expected.
-  - **Solution**: Double-check the cloning of obstacles and ensure they’re moving in the correct direction. You can use `glide` or `move steps` blocks to control their speed and behavior.
-
-- **Issue**: The timer doesn’t reset after each level.
-  - **Solution**: Ensure the timer is reset at the start of each new level and starts counting down from the correct value.
-
-### 5. Extension Ideas
-
-- **Power-ups**: Add **boosts** or **shields** that temporarily increase the car’s speed or protect it from obstacles.
-- **Multiple Tracks**: Create multiple track designs with different themes and backgrounds. Change the backdrop for each level to make it feel like the player is racing in a different environment.
-- **Leaderboard**: Create a **leaderboard** to track the player’s highest score and display it on the main menu or after the game ends.
-- **Multiplayer Mode**: Add a second car controlled by another player. The players can race against each other, and the first to the finish line wins.
-
-## Conclusion
-
-By the end of this project, students will have built a **Racing Game** where they can race through a custom-designed track, avoid obstacles, and progress through increasingly difficult levels. Students will practice key concepts such as **sprite creation**, **leveling**, **movement**, **collision detection**, and **game flow management**. This project will also allow them to showcase their creativity through custom-designed sprites and backdrops.
+Ushbu loyiha orqali talabalar o'zlari yaratgan yo'lda poyga mashinasini boshqarib, to'siqlardan qochish, qiyinlashib boruvchi darajalarni bosib o'tish orqali **sprite yaratish**, **darajalarni oshirish**, **harakat**, **to'qnashuvni aniqlash** va **o'yin oqimini boshqarish** kabi asosiy tushunchalarni mustahkamlaydilar. Bu loyiha shuningdek, ularning ijodkorligini ko'rsatish imkonini beradi.
 
 ---

@@ -1,47 +1,47 @@
-# Project : Dialogue 🗣️
+# Loyiha: Muloqot 🗣️
 
-## Project Overview
+## Loyiha Sharhi
 
-In this project, students will create a simple interactive dialogue between three characters (sprites) using Scratch. This project is designed to introduce students to basic event handling, and it's an excellent starting point for understanding how to control sprites and organize interactions. It uses **say** and **wait** blocks to make the characters communicate with each other.
+Ushbu loyihada o‘quvchilar Scratch yordamida uchta belgining (sprajtning) ishtirokida sodda, interaktiv suhbat yaratadilar. Loyiha o‘quvchilarga asosiy **hodisalar bilan ishlash** tushunchasini o‘rgatadi va sprajtlarni boshqarish hamda ularning o‘zaro ta’sirini tashkil qilish bo‘yicha kirish loyihasi sifatida juda foydalidir. Unda belgilar o‘zaro muloqot qilishi uchun **say** va **wait** bloklaridan foydalaniladi.
 
-## Key Concepts to Focus On
+## Asosiy Tushunchalar
 
-- **Say Block**: Students will use the "say" block to make characters speak.
-- **Wait Block**: Introduce the "wait" block to control the timing of dialogue and allow characters to wait for their turn.
+- **Say bloki**: O‘quvchilar "say" blokidan foydalanib, belgilarni gapirtirishni o‘rganadilar.
+- **Wait bloki**: "wait" blokini tanishtiring — bu blok suhbatda har bir belgining navbatini kutishiga yordam beradi.
 
-## Detailed Plan
+## Batafsil Reja
 
-1. **Introduction (5-10 minutes)**
-   - Briefly explain the goal of the project: creating a simple conversation between three characters using Scratch.
-   - Introduce the **say** and **wait** blocks.
-   - Show how these blocks can be used to control the flow of a dialogue.
+1. **Kirish (5–10 daqiqa)**
+   - Loyiha maqsadini tushuntiring: Scratch yordamida uchta belgining sodda suhbatini yaratish.
+   - **Say** va **wait** bloklarini tanishtiring.
+   - Ushbu bloklar yordamida muloqot qanday boshqarilishini ko‘rsating.
 
-2. **Step-by-Step Instructions**
-   - Step 1: Create or choose three different sprites (characters) for the dialogue.
-   - Step 2: Use the `say [message] for [time] seconds` block for each sprite to display their speech.
-   - Step 3: Use the `wait [time] seconds` block to control how long each sprite’s speech lasts before the next sprite speaks.
-   - Step 4: Arrange the dialogue so each sprite speaks one after another, with a small wait between each.
+2. **Bosqichma-bosqich Yo‘riqnoma**
+   - 1-bosqich: Uchtagacha turli belgilarni (sprajtlarni) tanlang yoki yarating.
+   - 2-bosqich: Har bir sprajt uchun `say [xabar] for [vaqt] seconds` blokidan foydalaning.
+   - 3-bosqich: Suhbatdagi har bir navbatdan oldin `wait [vaqt] seconds` blokini qo‘shing.
+   - 4-bosqich: Belgilar birin-ketin gapiradigan qilib suhbatni tartiblang — har bir gapdan so‘ng biroz kutish qo‘shing.
 
-3. **Teacher’s Tips**
-   - Keep the dialogue simple. It’s mainly to show the possibility of interactions in Scratch.
-   - Use the `wait` block to give enough time for students to read each sprite’s speech.
-   - Encourage creativity by allowing students to change the characters’ costumes or add sounds as part of the dialogue.
+3. **O‘qituvchiga Maslahatlar**
+   - Suhbat soddaligi saqlansin — loyiha asosiy o‘zaro ta’sir imkoniyatlarini ko‘rsatish uchun mo‘ljallangan.
+   - Har bir sprajt gapini o‘qishga vaqt yetishi uchun `wait` blokidan foydalanishni eslatib o‘ting.
+   - O‘quvchilarning ijodkorligini rag‘batlantiring — belgilar kiyimlarini (costumes) o‘zgartirish yoki ovozlar qo‘shishga ruxsat bering.
 
-4. **Troubleshooting Common Issues**
-   - Issue: The dialogue flows too quickly or too slowly.
-     - Solution: Adjust the time in the `wait` blocks to make the speech appear at the right speed.
-   - Issue: Sprites are not talking in the correct order.
-     - Solution: Double-check the order of the `say` and `wait` blocks to ensure the dialogue flows smoothly.
+4. **Ko‘p Uchraydigan Muammolar va Yechimlar**
+   - Muammo: Suhbat juda tez yoki juda sekin kechmoqda.  
+     - Yechim: `wait` blokidagi vaqt qiymatlarini moslab, muloqotni kerakli tezlikda ko‘rsating.
+   - Muammo: Belgilar noto‘g‘ri tartibda gapirmoqda.  
+     - Yechim: `say` va `wait` bloklari tartibini tekshirib chiqib, muloqot oqimini to‘g‘rilang.
 
-5. **Extension Ideas**
-   - Students can add **background music** or **sound effects** to enhance the dialogue.
-   - Challenge students to create more complex dialogues with different **emotions** (e.g., happy, sad) by changing the sprites' costumes.
-   - Add animations to the sprites, like movement or facial expressions, to make the dialogue feel more interactive.
+5. **Qo‘shimcha G‘oyalar**
+   - O‘quvchilar suhbatga **fon musiqasi** yoki **ovoz effektlari** qo‘shishlari mumkin.
+   - Belgilarni turli **emosiyalarda** gapirtirish (masalan, xursand, xafa) uchun kiyimlarini (costumes) o‘zgartirishga undang.
+   - Suhbatni yanada interaktiv qilish uchun belgilarni harakatlantirish yoki yuz ifodalarini o‘zgartirish kabi **animatsiyalar** qo‘shing.
 
-## Conclusion
+## Xulosa
 
-By the end of this project, students will have created a simple but interactive dialogue between characters in Scratch. This project introduces essential concepts in a fun, easy-to-understand way and helps students realize the potential of Scratch for creating interactive animations.
+Loyiha yakunida o‘quvchilar Scratch orqali belgilar o‘rtasida sodda, ammo interaktiv suhbat yaratadilar. Bu loyiha oson, qiziqarli va tushunarli tarzda asosiy tushunchalarni o‘rgatadi hamda Scratch imkoniyatlarini o‘quvchilarga tanishtiradi.
 
 ---
 
-### **Note**: This project is ideal for the 3rd or 4th lessons in the course as an introductory exercise.
+### **Eslatma**: Ushbu loyiha kursdagi 3 yoki 4-darslarda kirish vazifasi sifatida juda mos keladi.
